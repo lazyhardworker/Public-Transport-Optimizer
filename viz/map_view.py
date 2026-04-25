@@ -53,12 +53,13 @@ def get_road_coordinates(stop_sequence):
     return all_coords
 
 
-def create_map(origin, destination, output_file="map.html"):
-    result = find_best_route(origin, destination)
-
-    if "error" in result:
-        print("Error: " + result["error"])
+def create_map(optimal_route_data, naive_route_data, output_file="map.html"):
+    if "error" in optimal_route_data or "error" in naive_route_data:
+        print("Error: Cannot create map due to routing error.")
         return
+
+    origin = optimal_route_data["origin"]
+    destination = optimal_route_data["destination"]
 
     m = folium.Map(
         location=[27.7041, 85.3145],
@@ -67,7 +68,7 @@ def create_map(origin, destination, output_file="map.html"):
     )
 
     for name, info in STOPS.items():
-        is_on_path = name in result["path"]
+        is_on_path = name in optimal_route_data["path"] or name in naive_route_data["path"]
         folium.CircleMarker(
             location=[info["lat"], info["lon"]],
             radius=6 if is_on_path else 4,
@@ -89,19 +90,30 @@ def create_map(origin, destination, output_file="map.html"):
             ).add_to(m)
 
     print("  Fetching road route from OSRM...")
-    road_coords = get_road_coordinates(result["path"])
-
+    
+    # Draw Optimal Route
+    optimal_road_coords = get_road_coordinates(optimal_route_data["path"])
     folium.PolyLine(
-        locations=road_coords,
-        color="#1D9E75",
+        locations=optimal_road_coords,
+        color="#1D9E75", # Green for optimal
         weight=5,
         opacity=0.85,
-        tooltip="Optimal route — " + str(result["total_time"]) + " min",
+        tooltip=f"Optimal Route — {optimal_route_data['total_time']} min",
+    ).add_to(m)
+
+    # Draw Naive Route (Chaos Path)
+    naive_road_coords = get_road_coordinates(naive_route_data["path"])
+    folium.PolyLine(
+        locations=naive_road_coords,
+        color="#E74C3C", # Red for naive/chaos
+        weight=3,
+        opacity=0.7,
+        dash_array="5, 5", # Dashed line for distinction
+        tooltip=f"Naive Route — {naive_route_data['total_time']} min",
     ).add_to(m)
 
     folium.Marker(
         location=[STOPS[origin]["lat"], STOPS[origin]["lon"]],
-        tooltip="START: " + origin,
         icon=folium.Icon(color="blue", icon="play"),
     ).add_to(m)
 
@@ -111,28 +123,35 @@ def create_map(origin, destination, output_file="map.html"):
         icon=folium.Icon(color="red", icon="flag"),
     ).add_to(m)
 
-    path_str = " → ".join(result["path"])
+    # Create summary HTML for both routes
+    optimal_path_str = " → ".join(optimal_route_data["path"])
+    naive_path_str = " → ".join(naive_route_data["path"])
+
     summary_html = (
         "<div style='position:fixed;bottom:30px;left:30px;z-index:1000;"
         "background:white;padding:14px 18px;border-radius:10px;"
         "border:1.5px solid #1D9E75;font-family:sans-serif;"
         "box-shadow:0 2px 8px rgba(0,0,0,0.15);min-width:200px'>"
-        "<div style='font-size:13px;font-weight:700;color:#0F6E56;margin-bottom:8px'>Optimal Route</div>"
+        "<div style='font-size:13px;font-weight:700;color:#0F6E56;margin-bottom:8px'>Route Comparison</div>"
         "<div style='font-size:12px;color:#333;margin-bottom:4px'><b>From:</b> " + origin + "</div>"
         "<div style='font-size:12px;color:#333;margin-bottom:4px'><b>To:</b> " + destination + "</div>"
-        "<div style='font-size:12px;color:#333;margin-bottom:4px'><b>Path:</b> " + path_str + "</div>"
         "<hr style='border:none;border-top:1px solid #eee;margin:8px 0'>"
-        "<div style='font-size:12px;color:#333;margin-bottom:3px'>Total time: <b>" + str(result["total_time"]) + " min</b></div>"
-        "<div style='font-size:12px;color:#333;margin-bottom:3px'>Travel time: <b>" + str(result["travel_time"]) + " min</b></div>"
-        "<div style='font-size:12px;color:#333;margin-bottom:3px'>Wait time: <b>" + str(result["wait_time"]) + " min</b></div>"
-        "<div style='font-size:12px;color:#333'>Transfers: <b>" + str(result["transfers"]) + "</b></div>"
+        "<div style='font-size:12px;font-weight:600;color:#0F6E56;margin-bottom:4px'>Optimal (Traffic-Aware)</div>"
+        "<div style='font-size:12px;color:#333;margin-bottom:3px'>Path: " + optimal_path_str + "</div>"
+        "<div style='font-size:12px;color:#333;margin-bottom:3px'>Total time: <b>" + str(optimal_route_data["total_time"]) + " min</b></div>"
+        "<div style='font-size:12px;color:#333;margin-bottom:3px'>Travel time: " + str(optimal_route_data["travel_time"]) + " min</div>"
+        "<div style='font-size:12px;color:#333;margin-bottom:3px'>Wait time: " + str(optimal_route_data["wait_time"]) + " min</div>"
+        "<div style='font-size:12px;color:#333'>Transfers: " + str(optimal_route_data["transfers"]) + "</div>"
+        "<hr style='border:none;border-top:1px solid #eee;margin:8px 0'>"
+        "<div style='font-size:12px;font-weight:600;color:#E74C3C;margin-bottom:4px'>Naive (Actual Time)</div>"
+        "<div style='font-size:12px;color:#333;margin-bottom:3px'>Path: " + naive_path_str + "</div>"
+        "<div style='font-size:12px;color:#333;margin-bottom:3px'>Total time: <b>" + str(naive_route_data["total_time"]) + " min</b></div>"
+        "<div style='font-size:12px;color:#333;margin-bottom:3px'>Travel time: " + str(naive_route_data["travel_time"]) + " min</div>"
+        "<div style='font-size:12px;color:#333;margin-bottom:3px'>Wait time: " + str(naive_route_data["wait_time"]) + " min</div>"
+        "<div style='font-size:12px;color:#333'>Transfers: " + str(naive_route_data["transfers"]) + "</div>"
         "</div>"
     )
 
     m.get_root().html.add_child(folium.Element(summary_html))
     m.save(output_file)
     print("  Map saved to: " + output_file)
-
-
-if __name__ == "__main__":
-    create_map("Kalanki", "Chabahil")
