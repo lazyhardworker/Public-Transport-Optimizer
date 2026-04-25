@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_22a026bb0082144965d978d664b2e68b {
+                #map_0c1505b4b0e14017e18502b692de6568 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -53,16 +53,16 @@
 </head>
 <body>
     
-    <div style='position:fixed;bottom:30px;left:30px;z-index:1000;background:white;padding:14px 18px;border-radius:10px;border:1.5px solid #1D9E75;font-family:sans-serif;box-shadow:0 2px 8px rgba(0,0,0,0.15);min-width:200px'><div style='font-size:13px;font-weight:700;color:#0F6E56;margin-bottom:8px'>Optimal Route</div><div style='font-size:12px;color:#333;margin-bottom:4px'><b>From:</b> Koteshwor</div><div style='font-size:12px;color:#333;margin-bottom:4px'><b>To:</b> Maitighar</div><div style='font-size:12px;color:#333;margin-bottom:4px'><b>Path:</b> Koteshwor → Baneshwor → Maitighar</div><hr style='border:none;border-top:1px solid #eee;margin:8px 0'><div style='font-size:12px;color:#333;margin-bottom:3px'>Total time: <b>31 min</b></div><div style='font-size:12px;color:#333;margin-bottom:3px'>Travel time: <b>11 min</b></div><div style='font-size:12px;color:#333;margin-bottom:3px'>Wait time: <b>20 min</b></div><div style='font-size:12px;color:#333'>Transfers: <b>0</b></div></div>
+    <div style='position:fixed;bottom:30px;left:30px;z-index:1000;background:white;padding:14px 18px;border-radius:10px;border:1.5px solid #1D9E75;font-family:sans-serif;box-shadow:0 2px 8px rgba(0,0,0,0.15);min-width:200px'><div style='font-size:13px;font-weight:700;color:#0F6E56;margin-bottom:8px'>Route Comparison</div><div style='font-size:12px;color:#333;margin-bottom:4px'><b>From:</b> Kapan</div><div style='font-size:12px;color:#333;margin-bottom:4px'><b>To:</b> Biruwa Kaushaltar</div><hr style='border:none;border-top:1px solid #eee;margin:8px 0'><div style='font-size:12px;font-weight:600;color:#0F6E56;margin-bottom:4px'>Optimal (Traffic-Aware)</div><div style='font-size:12px;color:#333;margin-bottom:3px'>Path: Kapan → Sukedhara → Jorpati → Chabahil → Koteshwor → Jadibuti → Hahar Mahadev → Biruwa Kaushaltar</div><div style='font-size:12px;color:#333;margin-bottom:3px'>Total time: <b>173 min</b></div><div style='font-size:12px;color:#333;margin-bottom:3px'>Travel time: 57 min</div><div style='font-size:12px;color:#333;margin-bottom:3px'>Wait time: 70 min</div><div style='font-size:12px;color:#333'>Transfers: 3</div><hr style='border:none;border-top:1px solid #eee;margin:8px 0'><div style='font-size:12px;font-weight:600;color:#E74C3C;margin-bottom:4px'>Naive (Actual Time)</div><div style='font-size:12px;color:#333;margin-bottom:3px'>Path: Kapan → Sukedhara → Jorpati → Chabahil → Koteshwor → Jadibuti → Hahar Mahadev → Biruwa Kaushaltar</div><div style='font-size:12px;color:#333;margin-bottom:3px'>Total time: <b>150 min</b></div><div style='font-size:12px;color:#333;margin-bottom:3px'>Travel time: 57 min</div><div style='font-size:12px;color:#333;margin-bottom:3px'>Wait time: 70 min</div><div style='font-size:12px;color:#333'>Transfers: 3</div></div>
     
-            <div class="folium-map" id="map_22a026bb0082144965d978d664b2e68b" ></div>
+            <div class="folium-map" id="map_0c1505b4b0e14017e18502b692de6568" ></div>
         
 </body>
 <script>
     
     
-            var map_22a026bb0082144965d978d664b2e68b = L.map(
-                "map_22a026bb0082144965d978d664b2e68b",
+            var map_0c1505b4b0e14017e18502b692de6568 = L.map(
+                "map_0c1505b4b0e14017e18502b692de6568",
                 {
                     center: [27.7041, 85.3145],
                     crs: L.CRS.EPSG3857,
@@ -79,7 +79,7 @@
 
         
     
-            var tile_layer_7a7532f4e28463957ac1d387926af27c = L.tileLayer(
+            var tile_layer_a42aaa9578fa49a445ba73128f8ab88b = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {
   "minZoom": 0,
@@ -96,16 +96,16 @@
             );
         
     
-            tile_layer_7a7532f4e28463957ac1d387926af27c.addTo(map_22a026bb0082144965d978d664b2e68b);
+            tile_layer_a42aaa9578fa49a445ba73128f8ab88b.addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            var circle_marker_c265beee00e3fd33b505063c8f46340a = L.circleMarker(
+            var circle_marker_52a61db3c0320f245693d35c61e291be = L.circleMarker(
                 [27.7041, 85.3145],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_c265beee00e3fd33b505063c8f46340a.bindTooltip(
+            circle_marker_52a61db3c0320f245693d35c61e291be.bindTooltip(
                 `<div>
                      Ratnapark
                  </div>`,
@@ -115,13 +115,13 @@
             );
         
     
-            var circle_marker_958728a0e01351b8b58b3205502b015f = L.circleMarker(
+            var circle_marker_a4084aef1958b000203b2d84a3bb570f = L.circleMarker(
                 [27.6933, 85.2818],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_958728a0e01351b8b58b3205502b015f.bindTooltip(
+            circle_marker_a4084aef1958b000203b2d84a3bb570f.bindTooltip(
                 `<div>
                      Kalanki
                  </div>`,
@@ -131,13 +131,13 @@
             );
         
     
-            var circle_marker_96df5149f01284335bed679763c2a625 = L.circleMarker(
+            var circle_marker_382ea3dc21a94d0a657fc5cb4ae9472e = L.circleMarker(
                 [27.6833, 85.35],
                 {"bubblingMouseEvents": true, "color": "#1D9E75", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D9E75", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_96df5149f01284335bed679763c2a625.bindTooltip(
+            circle_marker_382ea3dc21a94d0a657fc5cb4ae9472e.bindTooltip(
                 `<div>
                      Koteshwor
                  </div>`,
@@ -147,14 +147,14 @@
             );
         
     
-            var marker_28faf40f4a83b9166448fc40eb9fa8ba = L.marker(
+            var marker_cda64931bcf3ea0cdba7ee6717bd95c6 = L.marker(
                 [27.6845, 85.35],
                 {
 }
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            var div_icon_e1aab9393a33ca628ac94c53078fc71d = L.divIcon({
+            var div_icon_36fdc3756aefd84f40f3f380917e7e02 = L.divIcon({
   "html": "\u003cdiv style=\u0027font-size:11px;font-weight:600;color:#0F6E56;white-space:nowrap\u0027\u003eKoteshwor\u003c/div\u003e",
   "iconSize": [120, 20],
   "iconAnchor": [0, 0],
@@ -162,16 +162,16 @@
 });
         
     
-                marker_28faf40f4a83b9166448fc40eb9fa8ba.setIcon(div_icon_e1aab9393a33ca628ac94c53078fc71d);
+                marker_cda64931bcf3ea0cdba7ee6717bd95c6.setIcon(div_icon_36fdc3756aefd84f40f3f380917e7e02);
             
     
-            var circle_marker_ba115743b63000181fd18cbfb032046b = L.circleMarker(
+            var circle_marker_2e34e08062ea27458ee8cefa86eedf28 = L.circleMarker(
                 [27.7333, 85.3167],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_ba115743b63000181fd18cbfb032046b.bindTooltip(
+            circle_marker_2e34e08062ea27458ee8cefa86eedf28.bindTooltip(
                 `<div>
                      Gongabu
                  </div>`,
@@ -181,13 +181,13 @@
             );
         
     
-            var circle_marker_00401fa9282ed9f1570b83c16c546301 = L.circleMarker(
+            var circle_marker_bfad020183d10ed35960af5337bfa97d = L.circleMarker(
                 [27.6667, 85.3167],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_00401fa9282ed9f1570b83c16c546301.bindTooltip(
+            circle_marker_bfad020183d10ed35960af5337bfa97d.bindTooltip(
                 `<div>
                      Lagankhel
                  </div>`,
@@ -197,13 +197,13 @@
             );
         
     
-            var circle_marker_ec04b3715d95de492b97c13c20d16aa2 = L.circleMarker(
+            var circle_marker_d92dc2867cc6681d09ecb53abeab2959 = L.circleMarker(
                 [27.7167, 85.35],
-                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+                {"bubblingMouseEvents": true, "color": "#1D9E75", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D9E75", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_ec04b3715d95de492b97c13c20d16aa2.bindTooltip(
+            circle_marker_d92dc2867cc6681d09ecb53abeab2959.bindTooltip(
                 `<div>
                      Chabahil
                  </div>`,
@@ -213,13 +213,31 @@
             );
         
     
-            var circle_marker_4f8934d2f30be1956bf6e7c5b659d87b = L.circleMarker(
-                [27.7333, 85.2967],
-                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            var marker_62519d2b9eb81a10a020cf8e72b86b31 = L.marker(
+                [27.7179, 85.35],
+                {
+}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_4f8934d2f30be1956bf6e7c5b659d87b.bindTooltip(
+            var div_icon_74c9faba7d3e468926d0ce5437e1274b = L.divIcon({
+  "html": "\u003cdiv style=\u0027font-size:11px;font-weight:600;color:#0F6E56;white-space:nowrap\u0027\u003eChabahil\u003c/div\u003e",
+  "iconSize": [120, 20],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+        
+    
+                marker_62519d2b9eb81a10a020cf8e72b86b31.setIcon(div_icon_74c9faba7d3e468926d0ce5437e1274b);
+            
+    
+            var circle_marker_dd837cc84b93f3c08b3d692b2ce5d3f8 = L.circleMarker(
+                [27.7333, 85.2967],
+                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
+        
+    
+            circle_marker_dd837cc84b93f3c08b3d692b2ce5d3f8.bindTooltip(
                 `<div>
                      Balaju
                  </div>`,
@@ -229,13 +247,13 @@
             );
         
     
-            var circle_marker_5fcad200fb9a1bfc79716a0fa0013a26 = L.circleMarker(
+            var circle_marker_5e6f01ed7491fd572a9cf9f4a251fe9a = L.circleMarker(
                 [27.698, 85.31],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_5fcad200fb9a1bfc79716a0fa0013a26.bindTooltip(
+            circle_marker_5e6f01ed7491fd572a9cf9f4a251fe9a.bindTooltip(
                 `<div>
                      Tripureshwor
                  </div>`,
@@ -245,13 +263,13 @@
             );
         
     
-            var circle_marker_826c565d532772ee163a79cf9e5d96ee = L.circleMarker(
+            var circle_marker_8569527523d51898e76ddd18f1d82779 = L.circleMarker(
                 [27.6933, 85.34],
-                {"bubblingMouseEvents": true, "color": "#1D9E75", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D9E75", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_826c565d532772ee163a79cf9e5d96ee.bindTooltip(
+            circle_marker_8569527523d51898e76ddd18f1d82779.bindTooltip(
                 `<div>
                      Baneshwor
                  </div>`,
@@ -261,31 +279,13 @@
             );
         
     
-            var marker_5e3966dbc819f6804a96273df12ba12a = L.marker(
-                [27.6945, 85.34],
-                {
-}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
-        
-    
-            var div_icon_021957358ae6d51d7a01e2c25b6cacb3 = L.divIcon({
-  "html": "\u003cdiv style=\u0027font-size:11px;font-weight:600;color:#0F6E56;white-space:nowrap\u0027\u003eBaneshwor\u003c/div\u003e",
-  "iconSize": [120, 20],
-  "iconAnchor": [0, 0],
-  "className": "empty",
-});
-        
-    
-                marker_5e3966dbc819f6804a96273df12ba12a.setIcon(div_icon_021957358ae6d51d7a01e2c25b6cacb3);
-            
-    
-            var circle_marker_e0f8094b16e053c96e45e40403598249 = L.circleMarker(
+            var circle_marker_920e3d77bc3e372f9a324305f975748c = L.circleMarker(
                 [27.7333, 85.3333],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_e0f8094b16e053c96e45e40403598249.bindTooltip(
+            circle_marker_920e3d77bc3e372f9a324305f975748c.bindTooltip(
                 `<div>
                      Maharajgunj
                  </div>`,
@@ -295,13 +295,13 @@
             );
         
     
-            var circle_marker_e7fd7c7d660f7755e427f14c83c3ef86 = L.circleMarker(
+            var circle_marker_76c03ed86a205ead30184f506a6626f7 = L.circleMarker(
                 [27.6667, 85.3167],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_e7fd7c7d660f7755e427f14c83c3ef86.bindTooltip(
+            circle_marker_76c03ed86a205ead30184f506a6626f7.bindTooltip(
                 `<div>
                      Patan Dhoka
                  </div>`,
@@ -311,13 +311,13 @@
             );
         
     
-            var circle_marker_03ac0153ebc01d90bf893258d92ed3fa = L.circleMarker(
+            var circle_marker_9757350901f76d31c47cee731e320ec0 = L.circleMarker(
                 [27.6711, 85.4298],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_03ac0153ebc01d90bf893258d92ed3fa.bindTooltip(
+            circle_marker_9757350901f76d31c47cee731e320ec0.bindTooltip(
                 `<div>
                      Bhaktapur Bus Park
                  </div>`,
@@ -327,13 +327,13 @@
             );
         
     
-            var circle_marker_e86f76732419c56c0af5eefc346a4886 = L.circleMarker(
+            var circle_marker_bf06be071228d3d4592e2f63b54ba82e = L.circleMarker(
                 [27.6778, 85.2792],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_e86f76732419c56c0af5eefc346a4886.bindTooltip(
+            circle_marker_bf06be071228d3d4592e2f63b54ba82e.bindTooltip(
                 `<div>
                      Kirtipur
                  </div>`,
@@ -343,13 +343,13 @@
             );
         
     
-            var circle_marker_ef51e7657cef9ea14bad0b9c3bb477bc = L.circleMarker(
+            var circle_marker_0395f03736a2b3c6a96b4e71c3747c0f = L.circleMarker(
                 [27.6867, 85.295],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_ef51e7657cef9ea14bad0b9c3bb477bc.bindTooltip(
+            circle_marker_0395f03736a2b3c6a96b4e71c3747c0f.bindTooltip(
                 `<div>
                      Balkhu
                  </div>`,
@@ -359,13 +359,13 @@
             );
         
     
-            var circle_marker_c47fe16d0fc0dd2159adf080c86248f2 = L.circleMarker(
+            var circle_marker_d665fadf9db1a853bbcf15bf887682ce = L.circleMarker(
                 [27.6967, 85.2983],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_c47fe16d0fc0dd2159adf080c86248f2.bindTooltip(
+            circle_marker_d665fadf9db1a853bbcf15bf887682ce.bindTooltip(
                 `<div>
                      Kalimati
                  </div>`,
@@ -375,13 +375,13 @@
             );
         
     
-            var circle_marker_c320cb493b32d8e526d8f751f5360d27 = L.circleMarker(
+            var circle_marker_9f730efabeaa60d836d14ea3120c9fb0 = L.circleMarker(
                 [27.74, 85.32],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_c320cb493b32d8e526d8f751f5360d27.bindTooltip(
+            circle_marker_9f730efabeaa60d836d14ea3120c9fb0.bindTooltip(
                 `<div>
                      Naya Buspark
                  </div>`,
@@ -391,13 +391,13 @@
             );
         
     
-            var circle_marker_0d29053734b6a80b5d04b680cedb61e9 = L.circleMarker(
+            var circle_marker_9d1a41a7de58bd948d749e0bb9d8b7dd = L.circleMarker(
                 [27.695, 85.3233],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_0d29053734b6a80b5d04b680cedb61e9.bindTooltip(
+            circle_marker_9d1a41a7de58bd948d749e0bb9d8b7dd.bindTooltip(
                 `<div>
                      Thapathali
                  </div>`,
@@ -407,13 +407,13 @@
             );
         
     
-            var circle_marker_9fcef52bbe7cc7ad500c2c93a5708eb4 = L.circleMarker(
+            var circle_marker_c63cb769cd88978d5cb535ba235b0eff = L.circleMarker(
                 [27.66, 85.3033],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_9fcef52bbe7cc7ad500c2c93a5708eb4.bindTooltip(
+            circle_marker_c63cb769cd88978d5cb535ba235b0eff.bindTooltip(
                 `<div>
                      Ekantakuna
                  </div>`,
@@ -423,13 +423,13 @@
             );
         
     
-            var circle_marker_95c6ff4eaa46793e7e590a994d38b57b = L.circleMarker(
+            var circle_marker_bf761f38bf743073620adf838963926b = L.circleMarker(
                 [27.6717, 85.31],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_95c6ff4eaa46793e7e590a994d38b57b.bindTooltip(
+            circle_marker_bf761f38bf743073620adf838963926b.bindTooltip(
                 `<div>
                      Jawalakhel
                  </div>`,
@@ -439,13 +439,13 @@
             );
         
     
-            var circle_marker_2d543aadd9b857bbe33c10dd46a2d529 = L.circleMarker(
+            var circle_marker_0fff5e5ae56d094779100e3f16911e9d = L.circleMarker(
                 [27.6533, 85.3217],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_2d543aadd9b857bbe33c10dd46a2d529.bindTooltip(
+            circle_marker_0fff5e5ae56d094779100e3f16911e9d.bindTooltip(
                 `<div>
                      Satdobato
                  </div>`,
@@ -455,13 +455,13 @@
             );
         
     
-            var circle_marker_e0acd4533807587222945ae69eb56e30 = L.circleMarker(
+            var circle_marker_5f8d13df37dac196d794f2435bdbdcd3 = L.circleMarker(
                 [27.6633, 85.31],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_e0acd4533807587222945ae69eb56e30.bindTooltip(
+            circle_marker_5f8d13df37dac196d794f2435bdbdcd3.bindTooltip(
                 `<div>
                      Mahalaxmisthan
                  </div>`,
@@ -471,13 +471,13 @@
             );
         
     
-            var circle_marker_a6f518fd9b286bb7f3416edc5106f9e9 = L.circleMarker(
+            var circle_marker_327a4c86c2bdda1eb45ec2acb6a0bfdb = L.circleMarker(
                 [27.6617, 85.3167],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_a6f518fd9b286bb7f3416edc5106f9e9.bindTooltip(
+            circle_marker_327a4c86c2bdda1eb45ec2acb6a0bfdb.bindTooltip(
                 `<div>
                      Hattiban
                  </div>`,
@@ -487,13 +487,13 @@
             );
         
     
-            var circle_marker_4b1914ae5615d9e164d81777e63d212d = L.circleMarker(
+            var circle_marker_8e56b8bbcd5b5a930678cd7d0a185b4e = L.circleMarker(
                 [27.6967, 85.3033],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_4b1914ae5615d9e164d81777e63d212d.bindTooltip(
+            circle_marker_8e56b8bbcd5b5a930678cd7d0a185b4e.bindTooltip(
                 `<div>
                      Teku
                  </div>`,
@@ -503,13 +503,13 @@
             );
         
     
-            var circle_marker_70fce5518a3715060d757e8e9a3b497a = L.circleMarker(
+            var circle_marker_233dd353b16696b6a92a863b54099a69 = L.circleMarker(
                 [27.715, 85.29],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_70fce5518a3715060d757e8e9a3b497a.bindTooltip(
+            circle_marker_233dd353b16696b6a92a863b54099a69.bindTooltip(
                 `<div>
                      Swoyambhu
                  </div>`,
@@ -519,13 +519,13 @@
             );
         
     
-            var circle_marker_e19df8ba23605020599c47484df373cf = L.circleMarker(
+            var circle_marker_d7719881f94bb83f04a6b21d0d85cefc = L.circleMarker(
                 [27.7167, 85.3],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_e19df8ba23605020599c47484df373cf.bindTooltip(
+            circle_marker_d7719881f94bb83f04a6b21d0d85cefc.bindTooltip(
                 `<div>
                      Dallu
                  </div>`,
@@ -535,13 +535,13 @@
             );
         
     
-            var circle_marker_ff103337da6bfda2fb6f585ab6586f62 = L.circleMarker(
+            var circle_marker_ff3f06a066cd17163c7cda80983d9587 = L.circleMarker(
                 [27.7133, 85.3033],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_ff103337da6bfda2fb6f585ab6586f62.bindTooltip(
+            circle_marker_ff3f06a066cd17163c7cda80983d9587.bindTooltip(
                 `<div>
                      Nayabazar
                  </div>`,
@@ -551,13 +551,13 @@
             );
         
     
-            var circle_marker_dbb50aa83b2519c0d25160ecd16ccb2c = L.circleMarker(
+            var circle_marker_0e1af2c6f28a45b72c126b2707432e30 = L.circleMarker(
                 [27.7233, 85.2617],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_dbb50aa83b2519c0d25160ecd16ccb2c.bindTooltip(
+            circle_marker_0e1af2c6f28a45b72c126b2707432e30.bindTooltip(
                 `<div>
                      Ichangu
                  </div>`,
@@ -567,13 +567,13 @@
             );
         
     
-            var circle_marker_e494f45c066c02f4ae1b64aedfe739c2 = L.circleMarker(
+            var circle_marker_7298e594ae44d91228b4a1a2bd5bda54 = L.circleMarker(
                 [27.7183, 85.2717],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_e494f45c066c02f4ae1b64aedfe739c2.bindTooltip(
+            circle_marker_7298e594ae44d91228b4a1a2bd5bda54.bindTooltip(
                 `<div>
                      Karakhanachok
                  </div>`,
@@ -583,13 +583,13 @@
             );
         
     
-            var circle_marker_f869d8be4a634c53e189b6fe83dfb770 = L.circleMarker(
+            var circle_marker_415fd6f587debfeea6ea089e23dcb088 = L.circleMarker(
                 [27.7083, 85.3317],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_f869d8be4a634c53e189b6fe83dfb770.bindTooltip(
+            circle_marker_415fd6f587debfeea6ea089e23dcb088.bindTooltip(
                 `<div>
                      Dillibazar
                  </div>`,
@@ -599,13 +599,13 @@
             );
         
     
-            var circle_marker_7e7576237055452742de87572827d86a = L.circleMarker(
+            var circle_marker_14ba51a6c46927d388bf66a480c84c38 = L.circleMarker(
                 [27.7067, 85.3233],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_7e7576237055452742de87572827d86a.bindTooltip(
+            circle_marker_14ba51a6c46927d388bf66a480c84c38.bindTooltip(
                 `<div>
                      Bagbazar
                  </div>`,
@@ -615,13 +615,13 @@
             );
         
     
-            var circle_marker_6ca47824c4cd6f1d4c61e9964f297a04 = L.circleMarker(
+            var circle_marker_7db41ea61628819866195e82b8c6ae14 = L.circleMarker(
                 [27.7, 85.3267],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_6ca47824c4cd6f1d4c61e9964f297a04.bindTooltip(
+            circle_marker_7db41ea61628819866195e82b8c6ae14.bindTooltip(
                 `<div>
                      Putalisadak
                  </div>`,
@@ -631,13 +631,13 @@
             );
         
     
-            var circle_marker_75441f72e1bded13274fbdf1a570875a = L.circleMarker(
+            var circle_marker_c269f91d85419c24bd3d7081dd20ef5a = L.circleMarker(
                 [27.7067, 85.335],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_75441f72e1bded13274fbdf1a570875a.bindTooltip(
+            circle_marker_c269f91d85419c24bd3d7081dd20ef5a.bindTooltip(
                 `<div>
                      Hattisar
                  </div>`,
@@ -647,13 +647,13 @@
             );
         
     
-            var circle_marker_3946f21613d63077f61d2648e007be44 = L.circleMarker(
+            var circle_marker_90a844dc9f13e6d58f9d31e99ae91bf1 = L.circleMarker(
                 [27.7, 85.3383],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_3946f21613d63077f61d2648e007be44.bindTooltip(
+            circle_marker_90a844dc9f13e6d58f9d31e99ae91bf1.bindTooltip(
                 `<div>
                      Maitidevi
                  </div>`,
@@ -663,13 +663,13 @@
             );
         
     
-            var circle_marker_0d235d5f871ec8a24bc9e4a63fc1d393 = L.circleMarker(
+            var circle_marker_7a99d984140c150edb2ea535cf9b7fba = L.circleMarker(
                 [27.6967, 85.3583],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_0d235d5f871ec8a24bc9e4a63fc1d393.bindTooltip(
+            circle_marker_7a99d984140c150edb2ea535cf9b7fba.bindTooltip(
                 `<div>
                      Sinamangal
                  </div>`,
@@ -679,13 +679,13 @@
             );
         
     
-            var circle_marker_0e9271cf34b0f1186e824f8894e40700 = L.circleMarker(
+            var circle_marker_bae03f36e1c022a49106f105b9aea5dc = L.circleMarker(
                 [27.6967, 85.36],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_0e9271cf34b0f1186e824f8894e40700.bindTooltip(
+            circle_marker_bae03f36e1c022a49106f105b9aea5dc.bindTooltip(
                 `<div>
                      Airport
                  </div>`,
@@ -695,13 +695,13 @@
             );
         
     
-            var circle_marker_5e59813f8768eb68fe32cc27f8b2beb7 = L.circleMarker(
+            var circle_marker_3a5e5f745c668e0475946079bc2090b6 = L.circleMarker(
                 [27.69, 85.3667],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_5e59813f8768eb68fe32cc27f8b2beb7.bindTooltip(
+            circle_marker_3a5e5f745c668e0475946079bc2090b6.bindTooltip(
                 `<div>
                      Pepsikola
                  </div>`,
@@ -711,13 +711,13 @@
             );
         
     
-            var circle_marker_fee825d2fedf322ed86938c57c577f7c = L.circleMarker(
+            var circle_marker_bef2f751e72f643b975b257b7bb05abf = L.circleMarker(
                 [27.6933, 85.39],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_fee825d2fedf322ed86938c57c577f7c.bindTooltip(
+            circle_marker_bef2f751e72f643b975b257b7bb05abf.bindTooltip(
                 `<div>
                      Mulpani
                  </div>`,
@@ -727,13 +727,13 @@
             );
         
     
-            var circle_marker_cdb3bcb799b96b8083dd809a0d729bc0 = L.circleMarker(
+            var circle_marker_56a83b38885ba7c8a45f52fc2e700a52 = L.circleMarker(
                 [27.6867, 85.3817],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_cdb3bcb799b96b8083dd809a0d729bc0.bindTooltip(
+            circle_marker_56a83b38885ba7c8a45f52fc2e700a52.bindTooltip(
                 `<div>
                      Thimi
                  </div>`,
@@ -743,13 +743,13 @@
             );
         
     
-            var circle_marker_e70fbf14a6c27a88e842c731454b4bbf = L.circleMarker(
+            var circle_marker_682717904dc2e5e85f85712db54b27a3 = L.circleMarker(
                 [27.6867, 85.4017],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_e70fbf14a6c27a88e842c731454b4bbf.bindTooltip(
+            circle_marker_682717904dc2e5e85f85712db54b27a3.bindTooltip(
                 `<div>
                      Sallaghari
                  </div>`,
@@ -759,13 +759,13 @@
             );
         
     
-            var circle_marker_36f30c07309774753021491b2b52b6cb = L.circleMarker(
+            var circle_marker_028917d590d38a4f24d86e0dfff1cdf1 = L.circleMarker(
                 [27.6717, 85.4233],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_36f30c07309774753021491b2b52b6cb.bindTooltip(
+            circle_marker_028917d590d38a4f24d86e0dfff1cdf1.bindTooltip(
                 `<div>
                      Bhaktapur Dudhpati
                  </div>`,
@@ -775,13 +775,13 @@
             );
         
     
-            var circle_marker_3fa76f6cc2355e8073205abdc9d5d6dc = L.circleMarker(
+            var circle_marker_b44e455a8e4f8ffe4c6c7edc6e989df3 = L.circleMarker(
                 [27.6933, 85.3817],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_3fa76f6cc2355e8073205abdc9d5d6dc.bindTooltip(
+            circle_marker_b44e455a8e4f8ffe4c6c7edc6e989df3.bindTooltip(
                 `<div>
                      Bode
                  </div>`,
@@ -791,13 +791,13 @@
             );
         
     
-            var circle_marker_a56c931353b2f98647b0adb42781cf2e = L.circleMarker(
+            var circle_marker_b682fbc7cc0887cbbac190da71094cba = L.circleMarker(
                 [27.7267, 85.3617],
-                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+                {"bubblingMouseEvents": true, "color": "#1D9E75", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D9E75", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_a56c931353b2f98647b0adb42781cf2e.bindTooltip(
+            circle_marker_b682fbc7cc0887cbbac190da71094cba.bindTooltip(
                 `<div>
                      Jorpati
                  </div>`,
@@ -807,13 +807,31 @@
             );
         
     
-            var circle_marker_c55f646bac0e2c4385b16c009e3556d2 = L.circleMarker(
-                [27.7533, 85.39],
-                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            var marker_88f7f5105c5cf5e4119a0d25a53941fa = L.marker(
+                [27.7279, 85.3617],
+                {
+}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_c55f646bac0e2c4385b16c009e3556d2.bindTooltip(
+            var div_icon_ea6b98241e7ea5384fe010f3e6977a27 = L.divIcon({
+  "html": "\u003cdiv style=\u0027font-size:11px;font-weight:600;color:#0F6E56;white-space:nowrap\u0027\u003eJorpati\u003c/div\u003e",
+  "iconSize": [120, 20],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+        
+    
+                marker_88f7f5105c5cf5e4119a0d25a53941fa.setIcon(div_icon_ea6b98241e7ea5384fe010f3e6977a27);
+            
+    
+            var circle_marker_1aa0536065f4675c63e68668794527df = L.circleMarker(
+                [27.7533, 85.39],
+                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
+        
+    
+            circle_marker_1aa0536065f4675c63e68668794527df.bindTooltip(
                 `<div>
                      Sundarijal
                  </div>`,
@@ -823,13 +841,13 @@
             );
         
     
-            var circle_marker_4ba4646245ad5a8923d71a2a4e812210 = L.circleMarker(
+            var circle_marker_73d13a63529e1a588826192fead08706 = L.circleMarker(
                 [27.7367, 85.3717],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_4ba4646245ad5a8923d71a2a4e812210.bindTooltip(
+            circle_marker_73d13a63529e1a588826192fead08706.bindTooltip(
                 `<div>
                      Gokarna
                  </div>`,
@@ -839,13 +857,13 @@
             );
         
     
-            var circle_marker_c5b32e50eea92299b4ad5239a76deb30 = L.circleMarker(
+            var circle_marker_c1ba8a625c1f32b02cb9cfadae633554 = L.circleMarker(
                 [27.7267, 85.3433],
-                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+                {"bubblingMouseEvents": true, "color": "#1D9E75", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D9E75", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_c5b32e50eea92299b4ad5239a76deb30.bindTooltip(
+            circle_marker_c1ba8a625c1f32b02cb9cfadae633554.bindTooltip(
                 `<div>
                      Kapan
                  </div>`,
@@ -855,13 +873,31 @@
             );
         
     
-            var circle_marker_6d3f035859b59a9c2c8b8a5a6115ce08 = L.circleMarker(
-                [27.7717, 85.3617],
-                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            var marker_322db5ea55238b2fba857e27eb3fbdb1 = L.marker(
+                [27.7279, 85.3433],
+                {
+}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_6d3f035859b59a9c2c8b8a5a6115ce08.bindTooltip(
+            var div_icon_2247c803e8e80121307b2aab466787bf = L.divIcon({
+  "html": "\u003cdiv style=\u0027font-size:11px;font-weight:600;color:#0F6E56;white-space:nowrap\u0027\u003eKapan\u003c/div\u003e",
+  "iconSize": [120, 20],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+        
+    
+                marker_322db5ea55238b2fba857e27eb3fbdb1.setIcon(div_icon_2247c803e8e80121307b2aab466787bf);
+            
+    
+            var circle_marker_f0bb87d8c52d041d9b251fd7ba9311ad = L.circleMarker(
+                [27.7717, 85.3617],
+                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
+        
+    
+            circle_marker_f0bb87d8c52d041d9b251fd7ba9311ad.bindTooltip(
                 `<div>
                      Budhanilkantha
                  </div>`,
@@ -871,13 +907,13 @@
             );
         
     
-            var circle_marker_7052d2656ffe42a9169fe4ab257fe277 = L.circleMarker(
+            var circle_marker_b2abe338260b0ce4c34823db99146440 = L.circleMarker(
                 [27.7533, 85.3367],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_7052d2656ffe42a9169fe4ab257fe277.bindTooltip(
+            circle_marker_b2abe338260b0ce4c34823db99146440.bindTooltip(
                 `<div>
                      Tokha
                  </div>`,
@@ -887,13 +923,13 @@
             );
         
     
-            var circle_marker_89156b737d8c4bf2f6a5059cdf722d26 = L.circleMarker(
+            var circle_marker_3626f0ed9a6c5e35d3bffd683f8662b4 = L.circleMarker(
                 [27.7367, 85.31],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_89156b737d8c4bf2f6a5059cdf722d26.bindTooltip(
+            circle_marker_3626f0ed9a6c5e35d3bffd683f8662b4.bindTooltip(
                 `<div>
                      Samakhusi
                  </div>`,
@@ -903,13 +939,13 @@
             );
         
     
-            var circle_marker_e1799a3f9e320389ed406c123b72fe3c = L.circleMarker(
+            var circle_marker_10ab0011e8ffd747612eebe0accb59bb = L.circleMarker(
                 [27.7483, 85.3317],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_e1799a3f9e320389ed406c123b72fe3c.bindTooltip(
+            circle_marker_10ab0011e8ffd747612eebe0accb59bb.bindTooltip(
                 `<div>
                      Basundhara
                  </div>`,
@@ -919,13 +955,13 @@
             );
         
     
-            var circle_marker_6507664d459200a03bf83ea7dae95e6f = L.circleMarker(
+            var circle_marker_a46fd8b4d9739077f3593c5dbcad48ef = L.circleMarker(
                 [27.74, 85.3317],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_6507664d459200a03bf83ea7dae95e6f.bindTooltip(
+            circle_marker_a46fd8b4d9739077f3593c5dbcad48ef.bindTooltip(
                 `<div>
                      Bansbari
                  </div>`,
@@ -935,13 +971,13 @@
             );
         
     
-            var circle_marker_377a6995dde934b402460e52a3884136 = L.circleMarker(
+            var circle_marker_0495da8575e3502a490e128e7a2840c8 = L.circleMarker(
                 [27.7167, 85.3167],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_377a6995dde934b402460e52a3884136.bindTooltip(
+            circle_marker_0495da8575e3502a490e128e7a2840c8.bindTooltip(
                 `<div>
                      Lainchaur
                  </div>`,
@@ -951,13 +987,13 @@
             );
         
     
-            var circle_marker_e766c45da8fce9e9ded9f05dce8a9b62 = L.circleMarker(
+            var circle_marker_a7e6202d942cc13c1cd0ae9020f47899 = L.circleMarker(
                 [27.7617, 85.4133],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_e766c45da8fce9e9ded9f05dce8a9b62.bindTooltip(
+            circle_marker_a7e6202d942cc13c1cd0ae9020f47899.bindTooltip(
                 `<div>
                      Kavresthali
                  </div>`,
@@ -967,13 +1003,13 @@
             );
         
     
-            var circle_marker_b84a2645a3885c27407c104bfa30a0d8 = L.circleMarker(
+            var circle_marker_495f5a687a024c1895efafe6ff064d36 = L.circleMarker(
                 [27.695, 85.2417],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_b84a2645a3885c27407c104bfa30a0d8.bindTooltip(
+            circle_marker_495f5a687a024c1895efafe6ff064d36.bindTooltip(
                 `<div>
                      Thankot
                  </div>`,
@@ -983,13 +1019,13 @@
             );
         
     
-            var circle_marker_aed49fdb099aa09bb6f9cad0e2b1372a = L.circleMarker(
+            var circle_marker_28e360045d7eb8fa1934866425ba28ea = L.circleMarker(
                 [27.6117, 85.27],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_aed49fdb099aa09bb6f9cad0e2b1372a.bindTooltip(
+            circle_marker_28e360045d7eb8fa1934866425ba28ea.bindTooltip(
                 `<div>
                      Dakshinkali
                  </div>`,
@@ -999,13 +1035,13 @@
             );
         
     
-            var circle_marker_408371b5e091cddde01dbfb9d699fe12 = L.circleMarker(
+            var circle_marker_902564aa96f792304ca9b8260f544282 = L.circleMarker(
                 [27.605, 85.3417],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_408371b5e091cddde01dbfb9d699fe12.bindTooltip(
+            circle_marker_902564aa96f792304ca9b8260f544282.bindTooltip(
                 `<div>
                      Godawari
                  </div>`,
@@ -1015,13 +1051,13 @@
             );
         
     
-            var circle_marker_606fc2482d30955436328e2a2fd74fce = L.circleMarker(
+            var circle_marker_491b713e4e317e26fdc237bb7be748c5 = L.circleMarker(
                 [27.6383, 85.32],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_606fc2482d30955436328e2a2fd74fce.bindTooltip(
+            circle_marker_491b713e4e317e26fdc237bb7be748c5.bindTooltip(
                 `<div>
                      Sunakothi
                  </div>`,
@@ -1031,13 +1067,13 @@
             );
         
     
-            var circle_marker_32b186e56291be30fc1a923b2e962244 = L.circleMarker(
+            var circle_marker_d48da4a8bee236f70f8e1b2622e4a99c = L.circleMarker(
                 [27.6383, 85.3067],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_32b186e56291be30fc1a923b2e962244.bindTooltip(
+            circle_marker_d48da4a8bee236f70f8e1b2622e4a99c.bindTooltip(
                 `<div>
                      Bungmati
                  </div>`,
@@ -1047,13 +1083,13 @@
             );
         
     
-            var circle_marker_c3b2a967e71d7a518932cbf60d5bd750 = L.circleMarker(
+            var circle_marker_5212c13dce0939a9bda46bb3c5f61d35 = L.circleMarker(
                 [27.6467, 85.2967],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_c3b2a967e71d7a518932cbf60d5bd750.bindTooltip(
+            circle_marker_5212c13dce0939a9bda46bb3c5f61d35.bindTooltip(
                 `<div>
                      Khokana
                  </div>`,
@@ -1063,13 +1099,13 @@
             );
         
     
-            var circle_marker_20dbf08640d8b85a7be16d45482bfbaf = L.circleMarker(
+            var circle_marker_10179eabb9c190e4aaef2cd7f0665bca = L.circleMarker(
                 [27.6183, 85.325],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_20dbf08640d8b85a7be16d45482bfbaf.bindTooltip(
+            circle_marker_10179eabb9c190e4aaef2cd7f0665bca.bindTooltip(
                 `<div>
                      Chapagaun
                  </div>`,
@@ -1079,13 +1115,13 @@
             );
         
     
-            var circle_marker_ed7d0ea5d0e1eeca11a89000efdc957c = L.circleMarker(
+            var circle_marker_48427d9365ed44b95f1c9c1a0ad368c3 = L.circleMarker(
                 [27.5867, 85.3317],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_ed7d0ea5d0e1eeca11a89000efdc957c.bindTooltip(
+            circle_marker_48427d9365ed44b95f1c9c1a0ad368c3.bindTooltip(
                 `<div>
                      Lele
                  </div>`,
@@ -1095,13 +1131,13 @@
             );
         
     
-            var circle_marker_dc888a5187e374191b8da8e922b4df5b = L.circleMarker(
+            var circle_marker_e70da01d3f23d46868cbaff271b501ec = L.circleMarker(
                 [27.6317, 85.2883],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_dc888a5187e374191b8da8e922b4df5b.bindTooltip(
+            circle_marker_e70da01d3f23d46868cbaff271b501ec.bindTooltip(
                 `<div>
                      Farsidol
                  </div>`,
@@ -1111,13 +1147,13 @@
             );
         
     
-            var circle_marker_4f1e74bab869481778c6e18b3cb4e648 = L.circleMarker(
+            var circle_marker_6f3af248c7158d77935fa71f0bb98113 = L.circleMarker(
                 [27.645, 85.3683],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_4f1e74bab869481778c6e18b3cb4e648.bindTooltip(
+            circle_marker_6f3af248c7158d77935fa71f0bb98113.bindTooltip(
                 `<div>
                      Lamatar
                  </div>`,
@@ -1127,13 +1163,13 @@
             );
         
     
-            var circle_marker_53532ebc1bc0a43562220a80ec7f4bc7 = L.circleMarker(
+            var circle_marker_789bb5d9cbd7f5a7cfd96d47c294463f = L.circleMarker(
                 [27.7133, 85.3083],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_53532ebc1bc0a43562220a80ec7f4bc7.bindTooltip(
+            circle_marker_789bb5d9cbd7f5a7cfd96d47c294463f.bindTooltip(
                 `<div>
                      Narayanthan
                  </div>`,
@@ -1143,13 +1179,13 @@
             );
         
     
-            var circle_marker_963541ea9fb48dcc2371c61987f3025f = L.circleMarker(
+            var circle_marker_c3a0b2b9af2bebe4d29568d137355451 = L.circleMarker(
                 [27.7133, 85.2683],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_963541ea9fb48dcc2371c61987f3025f.bindTooltip(
+            circle_marker_c3a0b2b9af2bebe4d29568d137355451.bindTooltip(
                 `<div>
                      Ramkot
                  </div>`,
@@ -1159,13 +1195,13 @@
             );
         
     
-            var circle_marker_60fc072dbf1feeec5b731a40822bc540 = L.circleMarker(
+            var circle_marker_f98767be99ea97ffc1c1a85751656800 = L.circleMarker(
                 [27.715, 85.28],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_60fc072dbf1feeec5b731a40822bc540.bindTooltip(
+            circle_marker_f98767be99ea97ffc1c1a85751656800.bindTooltip(
                 `<div>
                      Sitapaila
                  </div>`,
@@ -1175,13 +1211,13 @@
             );
         
     
-            var circle_marker_898b91cae2a8390ddf8504a0bb2d30f4 = L.circleMarker(
+            var circle_marker_59fbd63c9d94d7f9ecd2dc80c9bb0ae7 = L.circleMarker(
                 [27.6683, 85.3167],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_898b91cae2a8390ddf8504a0bb2d30f4.bindTooltip(
+            circle_marker_59fbd63c9d94d7f9ecd2dc80c9bb0ae7.bindTooltip(
                 `<div>
                      Pandeychhap
                  </div>`,
@@ -1191,13 +1227,13 @@
             );
         
     
-            var circle_marker_3a84b3d74fa6858cf91759ec7a6131b2 = L.circleMarker(
+            var circle_marker_4e4cc4ae56fde736fe4e7247aaefb0be = L.circleMarker(
                 [27.665, 85.3017],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_3a84b3d74fa6858cf91759ec7a6131b2.bindTooltip(
+            circle_marker_4e4cc4ae56fde736fe4e7247aaefb0be.bindTooltip(
                 `<div>
                      Taudaha
                  </div>`,
@@ -1207,13 +1243,13 @@
             );
         
     
-            var circle_marker_205a7d1a82407d70e1853ad098684545 = L.circleMarker(
+            var circle_marker_2be171a405e5a383ef7d4d86237925e6 = L.circleMarker(
                 [27.6717, 85.2783],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_205a7d1a82407d70e1853ad098684545.bindTooltip(
+            circle_marker_2be171a405e5a383ef7d4d86237925e6.bindTooltip(
                 `<div>
                      Panga
                  </div>`,
@@ -1223,13 +1259,13 @@
             );
         
     
-            var circle_marker_864b520a71965a8cd47aa51213a77719 = L.circleMarker(
+            var circle_marker_3a18f46d3528f7397af194019de742f2 = L.circleMarker(
                 [27.7483, 85.2717],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_864b520a71965a8cd47aa51213a77719.bindTooltip(
+            circle_marker_3a18f46d3528f7397af194019de742f2.bindTooltip(
                 `<div>
                      Goldhunge
                  </div>`,
@@ -1239,13 +1275,13 @@
             );
         
     
-            var circle_marker_f69d1df1b7454a52385954854b97d6aa = L.circleMarker(
+            var circle_marker_0be7e18c154da6eecd42ad2814478795 = L.circleMarker(
                 [27.7867, 85.2833],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_f69d1df1b7454a52385954854b97d6aa.bindTooltip(
+            circle_marker_0be7e18c154da6eecd42ad2814478795.bindTooltip(
                 `<div>
                      Ranipauwa
                  </div>`,
@@ -1255,13 +1291,13 @@
             );
         
     
-            var circle_marker_ae1a302e6f8f31923efac56e8fe4b429 = L.circleMarker(
+            var circle_marker_f8848fbff1b2e3bcbaae757a55e9214e = L.circleMarker(
                 [27.8217, 85.3133],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_ae1a302e6f8f31923efac56e8fe4b429.bindTooltip(
+            circle_marker_f8848fbff1b2e3bcbaae757a55e9214e.bindTooltip(
                 `<div>
                      Kakani
                  </div>`,
@@ -1271,13 +1307,13 @@
             );
         
     
-            var circle_marker_3602bfff654e0c68e10bb224717ea878 = L.circleMarker(
+            var circle_marker_3a3f457130ffa1522487e7fad504c2d9 = L.circleMarker(
                 [27.7683, 85.3617],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_3602bfff654e0c68e10bb224717ea878.bindTooltip(
+            circle_marker_3a3f457130ffa1522487e7fad504c2d9.bindTooltip(
                 `<div>
                      Tinpiple
                  </div>`,
@@ -1287,13 +1323,13 @@
             );
         
     
-            var circle_marker_bbb82dd4a7b620a9c8a01faf5d18b547 = L.circleMarker(
+            var circle_marker_ea245dc59d3aed8dc92a7df2a480c794 = L.circleMarker(
                 [27.6817, 85.3333],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_bbb82dd4a7b620a9c8a01faf5d18b547.bindTooltip(
+            circle_marker_ea245dc59d3aed8dc92a7df2a480c794.bindTooltip(
                 `<div>
                      Shankhamul
                  </div>`,
@@ -1303,13 +1339,13 @@
             );
         
     
-            var circle_marker_39b0a515a4f6c827ba28a9d58af452e2 = L.circleMarker(
+            var circle_marker_608853e82dfde296362c948c749a0f3d = L.circleMarker(
                 [27.7083, 85.3183],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_39b0a515a4f6c827ba28a9d58af452e2.bindTooltip(
+            circle_marker_608853e82dfde296362c948c749a0f3d.bindTooltip(
                 `<div>
                      Jamal
                  </div>`,
@@ -1319,13 +1355,13 @@
             );
         
     
-            var circle_marker_1ea3fdda99e7eeff6a8b755c8b8e7184 = L.circleMarker(
+            var circle_marker_5cbfdf78dd5c0aabf46a0a017cf403aa = L.circleMarker(
                 [27.6983, 85.3183],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_1ea3fdda99e7eeff6a8b755c8b8e7184.bindTooltip(
+            circle_marker_5cbfdf78dd5c0aabf46a0a017cf403aa.bindTooltip(
                 `<div>
                      Singhadurbar
                  </div>`,
@@ -1335,13 +1371,13 @@
             );
         
     
-            var circle_marker_4c9405052b2b58561f724f743f30848a = L.circleMarker(
+            var circle_marker_719a398504a7de7bc955353a805c9fa7 = L.circleMarker(
                 [27.6867, 85.3133],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_4c9405052b2b58561f724f743f30848a.bindTooltip(
+            circle_marker_719a398504a7de7bc955353a805c9fa7.bindTooltip(
                 `<div>
                      Kupandole
                  </div>`,
@@ -1351,13 +1387,13 @@
             );
         
     
-            var circle_marker_e894a66b61d386aae297649ee40e60e4 = L.circleMarker(
+            var circle_marker_aade636b3a6f4f1f2c08086c4d673ed2 = L.circleMarker(
                 [27.6817, 85.3183],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_e894a66b61d386aae297649ee40e60e4.bindTooltip(
+            circle_marker_aade636b3a6f4f1f2c08086c4d673ed2.bindTooltip(
                 `<div>
                      Pulchowk
                  </div>`,
@@ -1367,13 +1403,13 @@
             );
         
     
-            var circle_marker_70d927b788a4f93aa982f45771ec03d4 = L.circleMarker(
+            var circle_marker_f740710b8c9d917363ba20957a39b020 = L.circleMarker(
                 [27.7133, 85.4483],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_70d927b788a4f93aa982f45771ec03d4.bindTooltip(
+            circle_marker_f740710b8c9d917363ba20957a39b020.bindTooltip(
                 `<div>
                      Changunarayan
                  </div>`,
@@ -1383,13 +1419,13 @@
             );
         
     
-            var circle_marker_c9d95bc5dddaa83d53bd16bd8ac5e858 = L.circleMarker(
+            var circle_marker_764d47db35f50798b12a02dd4cb7e255 = L.circleMarker(
                 [27.6917, 85.4067],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_c9d95bc5dddaa83d53bd16bd8ac5e858.bindTooltip(
+            circle_marker_764d47db35f50798b12a02dd4cb7e255.bindTooltip(
                 `<div>
                      Duwakot
                  </div>`,
@@ -1399,13 +1435,13 @@
             );
         
     
-            var circle_marker_0513043abb0f12c0963183136e78cbcc = L.circleMarker(
+            var circle_marker_473544a5fb26443792c3a080c58d7e04 = L.circleMarker(
                 [27.6633, 85.3383],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_0513043abb0f12c0963183136e78cbcc.bindTooltip(
+            circle_marker_473544a5fb26443792c3a080c58d7e04.bindTooltip(
                 `<div>
                      Gwarko
                  </div>`,
@@ -1415,13 +1451,13 @@
             );
         
     
-            var circle_marker_8ba8a45d7f490003b939e68d51d4fef9 = L.circleMarker(
+            var circle_marker_3402c2d7e391ff3c3c1c14f59d984d36 = L.circleMarker(
                 [27.6817, 85.3333],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_8ba8a45d7f490003b939e68d51d4fef9.bindTooltip(
+            circle_marker_3402c2d7e391ff3c3c1c14f59d984d36.bindTooltip(
                 `<div>
                      Sankhamul
                  </div>`,
@@ -1431,13 +1467,13 @@
             );
         
     
-            var circle_marker_2c05cbc453a5c396f5adf62fa2655c15 = L.circleMarker(
+            var circle_marker_7e5a7e270be14dbe951297759643fe55 = L.circleMarker(
                 [27.6483, 85.35],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_2c05cbc453a5c396f5adf62fa2655c15.bindTooltip(
+            circle_marker_7e5a7e270be14dbe951297759643fe55.bindTooltip(
                 `<div>
                      Harisiddhi
                  </div>`,
@@ -1447,13 +1483,13 @@
             );
         
     
-            var circle_marker_f11247298bc6eb593a63c0c0fa6b8a64 = L.circleMarker(
+            var circle_marker_01812a81654ddc8955871cfe33417b80 = L.circleMarker(
                 [27.6417, 85.3617],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_f11247298bc6eb593a63c0c0fa6b8a64.bindTooltip(
+            circle_marker_01812a81654ddc8955871cfe33417b80.bindTooltip(
                 `<div>
                      Thaiba
                  </div>`,
@@ -1463,13 +1499,13 @@
             );
         
     
-            var circle_marker_09e0b53d0ce9300cdc2926ef69079a75 = L.circleMarker(
+            var circle_marker_a0f3806f95908d00d13cdf7a6276427e = L.circleMarker(
                 [27.6533, 85.3333],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_09e0b53d0ce9300cdc2926ef69079a75.bindTooltip(
+            circle_marker_a0f3806f95908d00d13cdf7a6276427e.bindTooltip(
                 `<div>
                      Khumaltar
                  </div>`,
@@ -1479,13 +1515,13 @@
             );
         
     
-            var circle_marker_861dd260fb5b9d01c3c58a66807f28c7 = L.circleMarker(
+            var circle_marker_1681b1bbeadaf00c55264c274bd91036 = L.circleMarker(
                 [27.6717, 85.2867],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_861dd260fb5b9d01c3c58a66807f28c7.bindTooltip(
+            circle_marker_1681b1bbeadaf00c55264c274bd91036.bindTooltip(
                 `<div>
                      Langol
                  </div>`,
@@ -1495,13 +1531,13 @@
             );
         
     
-            var circle_marker_3a99e8e49977bccb8d23b5001d5790c6 = L.circleMarker(
+            var circle_marker_9830133d402838661da9c6ad3fbdd9a2 = L.circleMarker(
                 [27.6633, 85.2883],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_3a99e8e49977bccb8d23b5001d5790c6.bindTooltip(
+            circle_marker_9830133d402838661da9c6ad3fbdd9a2.bindTooltip(
                 `<div>
                      Chovar
                  </div>`,
@@ -1511,13 +1547,13 @@
             );
         
     
-            var circle_marker_e574e405d285fdc17910b466f6dab979 = L.circleMarker(
+            var circle_marker_d9f7d3c4bbdf0db390ac0829e41b8683 = L.circleMarker(
                 [27.6883, 85.265],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_e574e405d285fdc17910b466f6dab979.bindTooltip(
+            circle_marker_d9f7d3c4bbdf0db390ac0829e41b8683.bindTooltip(
                 `<div>
                      Matatirtha
                  </div>`,
@@ -1527,13 +1563,13 @@
             );
         
     
-            var circle_marker_ec8c6b6281aa2c621559477e0654f08c = L.circleMarker(
+            var circle_marker_8a00c14936f9599665c5562d967dbd06 = L.circleMarker(
                 [27.7017, 85.2767],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_ec8c6b6281aa2c621559477e0654f08c.bindTooltip(
+            circle_marker_8a00c14936f9599665c5562d967dbd06.bindTooltip(
                 `<div>
                      Machhegaun
                  </div>`,
@@ -1543,13 +1579,13 @@
             );
         
     
-            var circle_marker_a392d3c4f4dd2d616f19a3c283f65672 = L.circleMarker(
+            var circle_marker_4654e5200f32382226f3bc3cf9f60734 = L.circleMarker(
                 [27.695, 85.2683],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_a392d3c4f4dd2d616f19a3c283f65672.bindTooltip(
+            circle_marker_4654e5200f32382226f3bc3cf9f60734.bindTooltip(
                 `<div>
                      Satungal
                  </div>`,
@@ -1559,13 +1595,13 @@
             );
         
     
-            var circle_marker_fa499ebd3487737193e662ced730676d = L.circleMarker(
+            var circle_marker_e5cd9629ac83c768ee0be2382be83f5d = L.circleMarker(
                 [27.74, 85.2317],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_fa499ebd3487737193e662ced730676d.bindTooltip(
+            circle_marker_e5cd9629ac83c768ee0be2382be83f5d.bindTooltip(
                 `<div>
                      Jitpur Phedi
                  </div>`,
@@ -1575,13 +1611,13 @@
             );
         
     
-            var circle_marker_4acc2ee71ebd7a48c92fb2820f2864dd = L.circleMarker(
+            var circle_marker_994c5835d9323bdcd49baa0ec65f3dd0 = L.circleMarker(
                 [27.72, 85.2367],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_4acc2ee71ebd7a48c92fb2820f2864dd.bindTooltip(
+            circle_marker_994c5835d9323bdcd49baa0ec65f3dd0.bindTooltip(
                 `<div>
                      Nagdhunga
                  </div>`,
@@ -1591,13 +1627,13 @@
             );
         
     
-            var circle_marker_6708c8da6325651c14937ab1c58d4c72 = L.circleMarker(
+            var circle_marker_6f03c58995e21c0571b05a0f8063be13 = L.circleMarker(
                 [27.6467, 85.3267],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_6708c8da6325651c14937ab1c58d4c72.bindTooltip(
+            circle_marker_6f03c58995e21c0571b05a0f8063be13.bindTooltip(
                 `<div>
                      Bajrabarahi
                  </div>`,
@@ -1607,13 +1643,13 @@
             );
         
     
-            var circle_marker_726ce9c5383c7bec7ac6f2b20f37858a = L.circleMarker(
+            var circle_marker_690292b25fe51881a6b870de0c034a4c = L.circleMarker(
                 [27.6717, 85.37],
-                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+                {"bubblingMouseEvents": true, "color": "#1D9E75", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D9E75", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_726ce9c5383c7bec7ac6f2b20f37858a.bindTooltip(
+            circle_marker_690292b25fe51881a6b870de0c034a4c.bindTooltip(
                 `<div>
                      Hahar Mahadev
                  </div>`,
@@ -1623,13 +1659,31 @@
             );
         
     
-            var circle_marker_097eb3dd8c0fbcdd278a04532872b6de = L.circleMarker(
-                [27.685, 85.3617],
-                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            var marker_d700a058d8708d0d761edebb764279c6 = L.marker(
+                [27.672900000000002, 85.37],
+                {
+}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_097eb3dd8c0fbcdd278a04532872b6de.bindTooltip(
+            var div_icon_50fae19ce1804c81e1eb669f64ef5077 = L.divIcon({
+  "html": "\u003cdiv style=\u0027font-size:11px;font-weight:600;color:#0F6E56;white-space:nowrap\u0027\u003eHahar Mahadev\u003c/div\u003e",
+  "iconSize": [120, 20],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+        
+    
+                marker_d700a058d8708d0d761edebb764279c6.setIcon(div_icon_50fae19ce1804c81e1eb669f64ef5077);
+            
+    
+            var circle_marker_c622409310f73b577ca898637e3714e6 = L.circleMarker(
+                [27.685, 85.3617],
+                {"bubblingMouseEvents": true, "color": "#1D9E75", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D9E75", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
+        
+    
+            circle_marker_c622409310f73b577ca898637e3714e6.bindTooltip(
                 `<div>
                      Jadibuti
                  </div>`,
@@ -1639,13 +1693,31 @@
             );
         
     
-            var circle_marker_299b77ace4e63a5ed48c1266d2e2108e = L.circleMarker(
-                [27.67, 85.35],
-                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            var marker_4433ce1ea856f53c8df9a901cbf384cf = L.marker(
+                [27.6862, 85.3617],
+                {
+}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_299b77ace4e63a5ed48c1266d2e2108e.bindTooltip(
+            var div_icon_52693263b708c5742e16bd3cd012037b = L.divIcon({
+  "html": "\u003cdiv style=\u0027font-size:11px;font-weight:600;color:#0F6E56;white-space:nowrap\u0027\u003eJadibuti\u003c/div\u003e",
+  "iconSize": [120, 20],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+        
+    
+                marker_4433ce1ea856f53c8df9a901cbf384cf.setIcon(div_icon_52693263b708c5742e16bd3cd012037b);
+            
+    
+            var circle_marker_a7e4e9f7ab557d9d82aa7b77fdc20e97 = L.circleMarker(
+                [27.67, 85.35],
+                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
+        
+    
+            circle_marker_a7e4e9f7ab557d9d82aa7b77fdc20e97.bindTooltip(
                 `<div>
                      Balkumari
                  </div>`,
@@ -1655,13 +1727,13 @@
             );
         
     
-            var circle_marker_55151f0bbf69bf62a05aec8932cb490f = L.circleMarker(
+            var circle_marker_72b0221c372ea90bc583491c2127e5e8 = L.circleMarker(
                 [27.6583, 85.3567],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_55151f0bbf69bf62a05aec8932cb490f.bindTooltip(
+            circle_marker_72b0221c372ea90bc583491c2127e5e8.bindTooltip(
                 `<div>
                      Tikathali
                  </div>`,
@@ -1671,13 +1743,13 @@
             );
         
     
-            var circle_marker_d6f483c6bdc3d59ea2c885b914fb25fa = L.circleMarker(
+            var circle_marker_851d61822fc5a7aa8008d9e3eb3f6128 = L.circleMarker(
                 [27.7017, 85.3283],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_d6f483c6bdc3d59ea2c885b914fb25fa.bindTooltip(
+            circle_marker_851d61822fc5a7aa8008d9e3eb3f6128.bindTooltip(
                 `<div>
                      Anamnagar
                  </div>`,
@@ -1687,13 +1759,13 @@
             );
         
     
-            var circle_marker_b156ed3dc23c82bf89ae759e795e6de8 = L.circleMarker(
+            var circle_marker_970ee8e4fd0dcfbcef8a8fc13dc9ca7d = L.circleMarker(
                 [27.7033, 85.315],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_b156ed3dc23c82bf89ae759e795e6de8.bindTooltip(
+            circle_marker_970ee8e4fd0dcfbcef8a8fc13dc9ca7d.bindTooltip(
                 `<div>
                      Ghantaghar
                  </div>`,
@@ -1703,13 +1775,13 @@
             );
         
     
-            var circle_marker_d0fdc0313d4b6270186c2549cb25121c = L.circleMarker(
+            var circle_marker_c63db67029d5e039158cc1aaf5e6bab6 = L.circleMarker(
                 [27.7, 85.3183],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_d0fdc0313d4b6270186c2549cb25121c.bindTooltip(
+            circle_marker_c63db67029d5e039158cc1aaf5e6bab6.bindTooltip(
                 `<div>
                      Bhrikutimandap
                  </div>`,
@@ -1719,13 +1791,13 @@
             );
         
     
-            var circle_marker_fdd3e1d00a5e2e4beed43cc577b0f87c = L.circleMarker(
+            var circle_marker_359c1216688217bf22dc5b93dd108f52 = L.circleMarker(
                 [27.6967, 85.325],
-                {"bubblingMouseEvents": true, "color": "#1D9E75", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D9E75", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_fdd3e1d00a5e2e4beed43cc577b0f87c.bindTooltip(
+            circle_marker_359c1216688217bf22dc5b93dd108f52.bindTooltip(
                 `<div>
                      Maitighar
                  </div>`,
@@ -1735,31 +1807,13 @@
             );
         
     
-            var marker_6b32d4ce48679cf76da917301f16276f = L.marker(
-                [27.6979, 85.325],
-                {
-}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
-        
-    
-            var div_icon_0b3d2e3c22cc0acb6efc7854a0c63003 = L.divIcon({
-  "html": "\u003cdiv style=\u0027font-size:11px;font-weight:600;color:#0F6E56;white-space:nowrap\u0027\u003eMaitighar\u003c/div\u003e",
-  "iconSize": [120, 20],
-  "iconAnchor": [0, 0],
-  "className": "empty",
-});
-        
-    
-                marker_6b32d4ce48679cf76da917301f16276f.setIcon(div_icon_0b3d2e3c22cc0acb6efc7854a0c63003);
-            
-    
-            var circle_marker_81a802644fc3dcc775e1711b6d4b1f14 = L.circleMarker(
+            var circle_marker_1585b4bb15b62053ebdb68814742198a = L.circleMarker(
                 [27.6983, 85.3267],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_81a802644fc3dcc775e1711b6d4b1f14.bindTooltip(
+            circle_marker_1585b4bb15b62053ebdb68814742198a.bindTooltip(
                 `<div>
                      Babarmahal
                  </div>`,
@@ -1769,13 +1823,13 @@
             );
         
     
-            var circle_marker_c612e7e3dff268aca366fdbe1410fee0 = L.circleMarker(
+            var circle_marker_59cd54b1982be762f6a9456900d3e023 = L.circleMarker(
                 [27.6483, 85.36],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_c612e7e3dff268aca366fdbe1410fee0.bindTooltip(
+            circle_marker_59cd54b1982be762f6a9456900d3e023.bindTooltip(
                 `<div>
                      Lubhu
                  </div>`,
@@ -1785,13 +1839,13 @@
             );
         
     
-            var circle_marker_c706653cf2b891dc62460612552ece07 = L.circleMarker(
+            var circle_marker_23cf06ea276ab816ab5997ee0c1c675a = L.circleMarker(
                 [27.6617, 85.3367],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_c706653cf2b891dc62460612552ece07.bindTooltip(
+            circle_marker_23cf06ea276ab816ab5997ee0c1c675a.bindTooltip(
                 `<div>
                      Imadol
                  </div>`,
@@ -1801,13 +1855,13 @@
             );
         
     
-            var circle_marker_0e3e34f0606faab931b48ccec65f49d5 = L.circleMarker(
+            var circle_marker_5da5af4a13a406e80fec97a3936e463d = L.circleMarker(
                 [27.6783, 85.4267],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_0e3e34f0606faab931b48ccec65f49d5.bindTooltip(
+            circle_marker_5da5af4a13a406e80fec97a3936e463d.bindTooltip(
                 `<div>
                      Kamalbinayak
                  </div>`,
@@ -1817,13 +1871,13 @@
             );
         
     
-            var circle_marker_77208ad94629fba6f2d7ff3512d3b81e = L.circleMarker(
+            var circle_marker_c605d1e9e280e6846cbb2c6dcaff9672 = L.circleMarker(
                 [27.7417, 85.4333],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_77208ad94629fba6f2d7ff3512d3b81e.bindTooltip(
+            circle_marker_c605d1e9e280e6846cbb2c6dcaff9672.bindTooltip(
                 `<div>
                      Sankhu
                  </div>`,
@@ -1833,13 +1887,13 @@
             );
         
     
-            var circle_marker_98d278045518a0787ade4d05ee85c3d0 = L.circleMarker(
+            var circle_marker_7c2a8724badf654fda823a245af5d9bb = L.circleMarker(
                 [27.7133, 85.5167],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_98d278045518a0787ade4d05ee85c3d0.bindTooltip(
+            circle_marker_7c2a8724badf654fda823a245af5d9bb.bindTooltip(
                 `<div>
                      Nagarkot
                  </div>`,
@@ -1849,13 +1903,13 @@
             );
         
     
-            var circle_marker_6daa534ab5b1dcd133aa69c5802247a5 = L.circleMarker(
+            var circle_marker_43bda7a6b420845aa6e7da6cfc337709 = L.circleMarker(
                 [27.7417, 85.335],
-                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+                {"bubblingMouseEvents": true, "color": "#1D9E75", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D9E75", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_6daa534ab5b1dcd133aa69c5802247a5.bindTooltip(
+            circle_marker_43bda7a6b420845aa6e7da6cfc337709.bindTooltip(
                 `<div>
                      Sukedhara
                  </div>`,
@@ -1865,13 +1919,31 @@
             );
         
     
-            var circle_marker_1232495557443ca7b695d0673a9329e9 = L.circleMarker(
-                [27.735, 85.3483],
-                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            var marker_096ceb49278e9170aaf6052b0eb6d29d = L.marker(
+                [27.742900000000002, 85.335],
+                {
+}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_1232495557443ca7b695d0673a9329e9.bindTooltip(
+            var div_icon_7afb8bcb609250d73b1e0874f83c7ecb = L.divIcon({
+  "html": "\u003cdiv style=\u0027font-size:11px;font-weight:600;color:#0F6E56;white-space:nowrap\u0027\u003eSukedhara\u003c/div\u003e",
+  "iconSize": [120, 20],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+        
+    
+                marker_096ceb49278e9170aaf6052b0eb6d29d.setIcon(div_icon_7afb8bcb609250d73b1e0874f83c7ecb);
+            
+    
+            var circle_marker_49ed583d0d049b99b9a5fb406e21dcbf = L.circleMarker(
+                [27.735, 85.3483],
+                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
+        
+    
+            circle_marker_49ed583d0d049b99b9a5fb406e21dcbf.bindTooltip(
                 `<div>
                      Bhangal
                  </div>`,
@@ -1881,13 +1953,13 @@
             );
         
     
-            var circle_marker_24c05491d105996f54bb41690c7f6cbc = L.circleMarker(
+            var circle_marker_36d7b5ae839f3e4739cedc707b598ffa = L.circleMarker(
                 [27.695, 85.3267],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_24c05491d105996f54bb41690c7f6cbc.bindTooltip(
+            circle_marker_36d7b5ae839f3e4739cedc707b598ffa.bindTooltip(
                 `<div>
                      Milanchowk
                  </div>`,
@@ -1897,13 +1969,13 @@
             );
         
     
-            var circle_marker_8ec54c343813464169c5c2718694f1a3 = L.circleMarker(
+            var circle_marker_3b071e00697e1d241e29a6b6c5f8a09e = L.circleMarker(
                 [27.705, 85.3367],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_8ec54c343813464169c5c2718694f1a3.bindTooltip(
+            circle_marker_3b071e00697e1d241e29a6b6c5f8a09e.bindTooltip(
                 `<div>
                      Kalopul
                  </div>`,
@@ -1913,13 +1985,13 @@
             );
         
     
-            var circle_marker_8d161ba72d209d14e23aecd9473c376c = L.circleMarker(
+            var circle_marker_eda5e566f0da0d6406b712a83dc19833 = L.circleMarker(
                 [27.69, 85.3567],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_8d161ba72d209d14e23aecd9473c376c.bindTooltip(
+            circle_marker_eda5e566f0da0d6406b712a83dc19833.bindTooltip(
                 `<div>
                      Balkot
                  </div>`,
@@ -1929,13 +2001,13 @@
             );
         
     
-            var circle_marker_ce85e60bc931e0d30323652a1b5065c0 = L.circleMarker(
+            var circle_marker_28d33b6881843fba0f484eb5f8d8d4c9 = L.circleMarker(
                 [27.675, 85.365],
-                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+                {"bubblingMouseEvents": true, "color": "#1D9E75", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D9E75", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_ce85e60bc931e0d30323652a1b5065c0.bindTooltip(
+            circle_marker_28d33b6881843fba0f484eb5f8d8d4c9.bindTooltip(
                 `<div>
                      Biruwa Kaushaltar
                  </div>`,
@@ -1945,13 +2017,31 @@
             );
         
     
-            var circle_marker_afd1f37796de7553dc891d5666468266 = L.circleMarker(
-                [27.6567, 85.3417],
-                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            var marker_1f8f9fd73d3c9e488f244e2374b7c6ab = L.marker(
+                [27.6762, 85.365],
+                {
+}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_afd1f37796de7553dc891d5666468266.bindTooltip(
+            var div_icon_dfc3e6517a53af063e81147e870f5276 = L.divIcon({
+  "html": "\u003cdiv style=\u0027font-size:11px;font-weight:600;color:#0F6E56;white-space:nowrap\u0027\u003eBiruwa Kaushaltar\u003c/div\u003e",
+  "iconSize": [120, 20],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+        
+    
+                marker_1f8f9fd73d3c9e488f244e2374b7c6ab.setIcon(div_icon_dfc3e6517a53af063e81147e870f5276);
+            
+    
+            var circle_marker_a647b35929ab37804e21eccb4111fb6b = L.circleMarker(
+                [27.6567, 85.3417],
+                {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
+        
+    
+            circle_marker_a647b35929ab37804e21eccb4111fb6b.bindTooltip(
                 `<div>
                      Sanagaun
                  </div>`,
@@ -1961,13 +2051,13 @@
             );
         
     
-            var circle_marker_fa4ed9bd906ed880f50827911f28791a = L.circleMarker(
+            var circle_marker_c3acb0243a9923a23a8f6268edb75ba0 = L.circleMarker(
                 [27.6533, 85.3567],
                 {"bubblingMouseEvents": true, "color": "#888780", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B4B2A9", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            circle_marker_fa4ed9bd906ed880f50827911f28791a.bindTooltip(
+            circle_marker_c3acb0243a9923a23a8f6268edb75ba0.bindTooltip(
                 `<div>
                      Shankhadevi
                  </div>`,
@@ -1977,15 +2067,15 @@
             );
         
     
-            var poly_line_f065ee52166c5d9ddb3c9e5dc86a125a = L.polyline(
-                [[27.683278, 85.349415], [27.682763, 85.34944], [27.68272, 85.349443], [27.68263, 85.349449], [27.681663, 85.349561], [27.678982, 85.34968], [27.678947, 85.34968], [27.678788, 85.349533], [27.678938, 85.349528], [27.678981, 85.349527], [27.680469, 85.349495], [27.68133, 85.349466], [27.681663, 85.349455], [27.682191, 85.349388], [27.682627, 85.349331], [27.682709, 85.349314], [27.682863, 85.349284], [27.683178, 85.349198], [27.683356, 85.34913], [27.683518, 85.349058], [27.683685, 85.348981], [27.683833, 85.348905], [27.684085, 85.348751], [27.68434, 85.348547], [27.684547, 85.348361], [27.68473, 85.348178], [27.684921, 85.347972], [27.685064, 85.347811], [27.685137, 85.347717], [27.685282, 85.347499], [27.685401, 85.347283], [27.685579, 85.346968], [27.685712, 85.346699], [27.685766, 85.346569], [27.68583, 85.346398], [27.685872, 85.346272], [27.685898, 85.346176], [27.685958, 85.345873], [27.685971, 85.345806], [27.686003, 85.34564], [27.686156, 85.344861], [27.686198, 85.344646], [27.686258, 85.344338], [27.686501, 85.34327], [27.686529, 85.343163], [27.686559, 85.343029], [27.68672, 85.34231], [27.686888, 85.341598], [27.686894, 85.341572], [27.687071, 85.340731], [27.687167, 85.340294], [27.687382, 85.339336], [27.687464, 85.338946], [27.687554, 85.338512], [27.687622, 85.338214], [27.687777, 85.337522], [27.687869, 85.337105], [27.6879, 85.336967], [27.688112, 85.335997], [27.688209, 85.335557], [27.688287, 85.335578], [27.688372, 85.335598], [27.68847, 85.335572], [27.689251, 85.335709], [27.689664, 85.335776], [27.69034, 85.335901], [27.690437, 85.335952], [27.6905, 85.335972], [27.690775, 85.336027], [27.690886, 85.336045], [27.691152, 85.336104], [27.691309, 85.336158], [27.691399, 85.336183], [27.691457, 85.336195], [27.691515, 85.336193], [27.691771, 85.336196], [27.692027, 85.336185], [27.692292, 85.336193], [27.692434, 85.3362], [27.692508, 85.336217], [27.692512, 85.336301], [27.692608, 85.336487], [27.692706, 85.336682], [27.692742, 85.336796], [27.69284, 85.336956], [27.6929, 85.337126], [27.692952, 85.337225], [27.69297, 85.337288], [27.692936, 85.337447], [27.692964, 85.337502], [27.692974, 85.337587], [27.692954, 85.337691], [27.692935, 85.337801], [27.692919, 85.337913], [27.692877, 85.338047], [27.692856, 85.338141], [27.692852, 85.33827], [27.692814, 85.338378], [27.692798, 85.338533], [27.692883, 85.33856], [27.692998, 85.338591], [27.693162, 85.338627], [27.693203, 85.338694], [27.693217, 85.338767], [27.693217, 85.338909], [27.693219, 85.338987], [27.693211, 85.339076], [27.693204, 85.339193], [27.693193, 85.339355], [27.693178, 85.339444], [27.69317, 85.339522], [27.693148, 85.339613], [27.693155, 85.339733], [27.693158, 85.33984], [27.693142, 85.339992], [27.693183, 85.340043], [27.693186, 85.340051], [27.693183, 85.340043], [27.693142, 85.339992], [27.693158, 85.33984], [27.693155, 85.339733], [27.693148, 85.339613], [27.69317, 85.339522], [27.693178, 85.339444], [27.693193, 85.339355], [27.693204, 85.339193], [27.693211, 85.339076], [27.693219, 85.338987], [27.693217, 85.338909], [27.693217, 85.338767], [27.693203, 85.338694], [27.693162, 85.338627], [27.692998, 85.338591], [27.692883, 85.33856], [27.692798, 85.338533], [27.692814, 85.338378], [27.692852, 85.33827], [27.692856, 85.338141], [27.692877, 85.338047], [27.692919, 85.337913], [27.692935, 85.337801], [27.692954, 85.337691], [27.692974, 85.337587], [27.692964, 85.337502], [27.692936, 85.337447], [27.69297, 85.337288], [27.692952, 85.337225], [27.6929, 85.337126], [27.69284, 85.336956], [27.692742, 85.336796], [27.692706, 85.336682], [27.692608, 85.336487], [27.692512, 85.336301], [27.692508, 85.336217], [27.692494, 85.33613], [27.692478, 85.335986], [27.692437, 85.335819], [27.692348, 85.33557], [27.69216, 85.335314], [27.692064, 85.335205], [27.691909, 85.335037], [27.691559, 85.334574], [27.691496, 85.334493], [27.691393, 85.334285], [27.69137, 85.33413], [27.691362, 85.333992], [27.691366, 85.333919], [27.691376, 85.333844], [27.691376, 85.333829], [27.691369, 85.333818], [27.691358, 85.333806], [27.691209, 85.333714], [27.69127, 85.333459], [27.691362, 85.333065], [27.691422, 85.332813], [27.691546, 85.332484], [27.691705, 85.33206], [27.691844, 85.331359], [27.69189, 85.331157], [27.691952, 85.330953], [27.692082, 85.330486], [27.692211, 85.329907], [27.692285, 85.329609], [27.692315, 85.329496], [27.692343, 85.329388], [27.692401, 85.329216], [27.692597, 85.328668], [27.692646, 85.328502], [27.692682, 85.328394], [27.692772, 85.328235], [27.692879, 85.328091], [27.692994, 85.327838], [27.693149, 85.3276], [27.693242, 85.327514], [27.693251, 85.327535], [27.693265, 85.32755], [27.693284, 85.327559], [27.693304, 85.327561], [27.693324, 85.327554], [27.693338, 85.327543], [27.69335, 85.327524], [27.693386, 85.327534], [27.693512, 85.327563], [27.693965, 85.327671], [27.694019, 85.327681], [27.694089, 85.327664], [27.694148, 85.327634], [27.694347, 85.327558], [27.694547, 85.327538], [27.694616, 85.327535], [27.694674, 85.32754], [27.694994, 85.327637], [27.695483, 85.327785], [27.695761, 85.327868], [27.696007, 85.327944], [27.696413, 85.328067], [27.696493, 85.328092], [27.696509, 85.328011], [27.696573, 85.327701], [27.696603, 85.327556], [27.696722, 85.326975], [27.696802, 85.326588], [27.69699, 85.325675], [27.697086, 85.325208], [27.697119, 85.325049], [27.696713, 85.32494]],
+            var poly_line_3ac6dc6fdb34ff7c06e2205b2d60a4fa = L.polyline(
+                [[27.726898, 85.343347], [27.726882, 85.34343], [27.726832, 85.343572], [27.726829, 85.343636], [27.726695, 85.343758], [27.726797, 85.34434], [27.726853, 85.344644], [27.7269, 85.344849], [27.726944, 85.345001], [27.726994, 85.345115], [27.727053, 85.345213], [27.727102, 85.345265], [27.727178, 85.345347], [27.727295, 85.345456], [27.727381, 85.345547], [27.727407, 85.345599], [27.727458, 85.345613], [27.727559, 85.34564], [27.727802, 85.34571], [27.728189, 85.345832], [27.728316, 85.345865], [27.728418, 85.345881], [27.728544, 85.345897], [27.728676, 85.345905], [27.728797, 85.345911], [27.728907, 85.345908], [27.729019, 85.3459], [27.729119, 85.345876], [27.72918, 85.34586], [27.729271, 85.345831], [27.729359, 85.3458], [27.729446, 85.345764], [27.729516, 85.345728], [27.72968, 85.345639], [27.729885, 85.345513], [27.729954, 85.345473], [27.730057, 85.345409], [27.730256, 85.345289], [27.730717, 85.345003], [27.731036, 85.344805], [27.731303, 85.344632], [27.731706, 85.344328], [27.732087, 85.344095], [27.732176, 85.344039], [27.732598, 85.343799], [27.732763, 85.343698], [27.733148, 85.343446], [27.733609, 85.343151], [27.733893, 85.342969], [27.734134, 85.342824], [27.734396, 85.342661], [27.734485, 85.342603], [27.734761, 85.342426], [27.734938, 85.342315], [27.735064, 85.342239], [27.735737, 85.3418], [27.736122, 85.341557], [27.736471, 85.341331], [27.736734, 85.341164], [27.737321, 85.340789], [27.737562, 85.340627], [27.737776, 85.340471], [27.737877, 85.340388], [27.737919, 85.340353], [27.738058, 85.340234], [27.738205, 85.34009], [27.738474, 85.339804], [27.738624, 85.339621], [27.738754, 85.339439], [27.738892, 85.339231], [27.738995, 85.339031], [27.739262, 85.33856], [27.739341, 85.338421], [27.739853, 85.337405], [27.739998, 85.337116], [27.740104, 85.336926], [27.740127, 85.336887], [27.740293, 85.336589], [27.740521, 85.336127], [27.740603, 85.336168], [27.740698, 85.336098], [27.740744, 85.33605], [27.740856, 85.335903], [27.740937, 85.335763], [27.74137, 85.335002], [27.741456, 85.334838], [27.74137, 85.335002], [27.740937, 85.335763], [27.740856, 85.335903], [27.740744, 85.33605], [27.740698, 85.336098], [27.740603, 85.336168], [27.740521, 85.336127], [27.740293, 85.336589], [27.740127, 85.336887], [27.740104, 85.336926], [27.739998, 85.337116], [27.739853, 85.337405], [27.739341, 85.338421], [27.739262, 85.33856], [27.738995, 85.339031], [27.738892, 85.339231], [27.738754, 85.339439], [27.738624, 85.339621], [27.738474, 85.339804], [27.738205, 85.34009], [27.738058, 85.340234], [27.737919, 85.340353], [27.737877, 85.340388], [27.737776, 85.340471], [27.737562, 85.340627], [27.737321, 85.340789], [27.736734, 85.341164], [27.736471, 85.341331], [27.736122, 85.341557], [27.735737, 85.3418], [27.735064, 85.342239], [27.734938, 85.342315], [27.734761, 85.342426], [27.734485, 85.342603], [27.734396, 85.342661], [27.734134, 85.342824], [27.733893, 85.342969], [27.733609, 85.343151], [27.733148, 85.343446], [27.732763, 85.343698], [27.732598, 85.343799], [27.732176, 85.344039], [27.732087, 85.344095], [27.731706, 85.344328], [27.731303, 85.344632], [27.731036, 85.344805], [27.730717, 85.345003], [27.730256, 85.345289], [27.730057, 85.345409], [27.729954, 85.345473], [27.729885, 85.345513], [27.72968, 85.345639], [27.729516, 85.345728], [27.729446, 85.345764], [27.729359, 85.3458], [27.729271, 85.345831], [27.72918, 85.34586], [27.729119, 85.345876], [27.729019, 85.3459], [27.728907, 85.345908], [27.728797, 85.345911], [27.728676, 85.345905], [27.728544, 85.345897], [27.728418, 85.345881], [27.728316, 85.345865], [27.728189, 85.345832], [27.727802, 85.34571], [27.727559, 85.34564], [27.727458, 85.345613], [27.727407, 85.345599], [27.727106, 85.34549], [27.726477, 85.34528], [27.726368, 85.345242], [27.725882, 85.345088], [27.725732, 85.345036], [27.725233, 85.344871], [27.724877, 85.344802], [27.724743, 85.344783], [27.724521, 85.344768], [27.724349, 85.344773], [27.72419, 85.344788], [27.724047, 85.344814], [27.723731, 85.344893], [27.723406, 85.345007], [27.723246, 85.345066], [27.72276, 85.345258], [27.722654, 85.345306], [27.722628, 85.345311], [27.722524, 85.345346], [27.722287, 85.34544], [27.721818, 85.345621], [27.721032, 85.345924], [27.721254, 85.345929], [27.721561, 85.345936], [27.721731, 85.345906], [27.721867, 85.346153], [27.722087, 85.346471], [27.722192, 85.346632], [27.722207, 85.346693], [27.72221, 85.346749], [27.7221, 85.347513], [27.722001, 85.347995], [27.721946, 85.348179], [27.722164, 85.348566], [27.722357, 85.348857], [27.722596, 85.34929], [27.722821, 85.349579], [27.722827, 85.349589], [27.723022, 85.349911], [27.7232, 85.350197], [27.723384, 85.350491], [27.723559, 85.35079], [27.723588, 85.350837], [27.723821, 85.351204], [27.724035, 85.351539], [27.724136, 85.351708], [27.724414, 85.352141], [27.72464, 85.352536], [27.724687, 85.35262], [27.724872, 85.352876], [27.725064, 85.353189], [27.725165, 85.353392], [27.72533, 85.353649], [27.725455, 85.353901], [27.725571, 85.354053], [27.725733, 85.354317], [27.725885, 85.354516], [27.726045, 85.354774], [27.726112, 85.354883], [27.726365, 85.355278], [27.726473, 85.355465], [27.726512, 85.355528], [27.726918, 85.356179], [27.727246, 85.35673], [27.72737, 85.356938], [27.727587, 85.357289], [27.727682, 85.357447], [27.727725, 85.357517], [27.727819, 85.357671], [27.727968, 85.357877], [27.728155, 85.358179], [27.728198, 85.358272], [27.728204, 85.358283], [27.728237, 85.358357], [27.728259, 85.358401], [27.728336, 85.358542], [27.728479, 85.358802], [27.72849, 85.358822], [27.728501, 85.358853], [27.728508, 85.358884], [27.728511, 85.358914], [27.72851, 85.358949], [27.728507, 85.359123], [27.72845, 85.359133], [27.727686, 85.358952], [27.727647, 85.359164], [27.727604, 85.359353], [27.727574, 85.359551], [27.727546, 85.359712], [27.727504, 85.359796], [27.72743, 85.359918], [27.727603, 85.360087], [27.727683, 85.360288], [27.727697, 85.360376], [27.727699, 85.360445], [27.727691, 85.360546], [27.727679, 85.360634], [27.727648, 85.360694], [27.727548, 85.360736], [27.727495, 85.360803], [27.727461, 85.360907], [27.727417, 85.360974], [27.727413, 85.361171], [27.727439, 85.361318], [27.727375, 85.361548], [27.727357, 85.361834], [27.727307, 85.362225], [27.727165, 85.362192], [27.727043, 85.36216], [27.727006, 85.362133], [27.726988, 85.362047], [27.726943, 85.36182], [27.726942, 85.361697], [27.726943, 85.36182], [27.726988, 85.362047], [27.727006, 85.362133], [27.727043, 85.36216], [27.727165, 85.362192], [27.727307, 85.362225], [27.727357, 85.361834], [27.727375, 85.361548], [27.727439, 85.361318], [27.727413, 85.361171], [27.727417, 85.360974], [27.727461, 85.360907], [27.727495, 85.360803], [27.727548, 85.360736], [27.727648, 85.360694], [27.727679, 85.360634], [27.727691, 85.360546], [27.727699, 85.360445], [27.727697, 85.360376], [27.727683, 85.360288], [27.727603, 85.360087], [27.72743, 85.359918], [27.727342, 85.359821], [27.727234, 85.359704], [27.727122, 85.35953], [27.727021, 85.359387], [27.727008, 85.35928], [27.726936, 85.359178], [27.726815, 85.359032], [27.726797, 85.358943], [27.726798, 85.358884], [27.726812, 85.358835], [27.726845, 85.358803], [27.726873, 85.358798], [27.726907, 85.358801], [27.726836, 85.358634], [27.726743, 85.358434], [27.726652, 85.358339], [27.726585, 85.358244], [27.726409, 85.358181], [27.726248, 85.357953], [27.726195, 85.35789], [27.726099, 85.357843], [27.725458, 85.357792], [27.72531, 85.357781], [27.725212, 85.357737], [27.72515, 85.357689], [27.725116, 85.357663], [27.724783, 85.357294], [27.724696, 85.357202], [27.724625, 85.357209], [27.724541, 85.357227], [27.724267, 85.356833], [27.724001, 85.356472], [27.723987, 85.356456], [27.723638, 85.356057], [27.723623, 85.356039], [27.723542, 85.355947], [27.723277, 85.355643], [27.723131, 85.355466], [27.723053, 85.355348], [27.722983, 85.355223], [27.722898, 85.355074], [27.722829, 85.354985], [27.722515, 85.354717], [27.722438, 85.354628], [27.722298, 85.354413], [27.722267, 85.354322], [27.722264, 85.354304], [27.722253, 85.354255], [27.722235, 85.354145], [27.722217, 85.354069], [27.722179, 85.353944], [27.72203, 85.353694], [27.721868, 85.353481], [27.721542, 85.353084], [27.721217, 85.352684], [27.720969, 85.35241], [27.720821, 85.352211], [27.720459, 85.351772], [27.720036, 85.351244], [27.719665, 85.35078], [27.719618, 85.350719], [27.719332, 85.350975], [27.719376, 85.351111], [27.719405, 85.351256], [27.719424, 85.351388], [27.719428, 85.351559], [27.719174, 85.351547], [27.718959, 85.351535], [27.718795, 85.351553], [27.718758, 85.351573], [27.718711, 85.351612], [27.718682, 85.351601], [27.718665, 85.351586], [27.718675, 85.351496], [27.718648, 85.351468], [27.718581, 85.35144], [27.718465, 85.351398], [27.718101, 85.351259], [27.718062, 85.351193], [27.718036, 85.351105], [27.717979, 85.351077], [27.71778, 85.351032], [27.717695, 85.351007], [27.7176, 85.350985], [27.717535, 85.350953], [27.717462, 85.350897], [27.717434, 85.350618], [27.717436, 85.350515], [27.717442, 85.350398], [27.71736, 85.350388], [27.717335, 85.350369], [27.717326, 85.350314], [27.717247, 85.350325], [27.717176, 85.350328], [27.717108, 85.350316], [27.717091, 85.350313], [27.717047, 85.350301], [27.717024, 85.350275], [27.717025, 85.350217], [27.71704, 85.350169], [27.717038, 85.350117], [27.717035, 85.350081], [27.717019, 85.350057], [27.716956, 85.35005], [27.716958, 85.350031], [27.716956, 85.35005], [27.717019, 85.350057], [27.717035, 85.350081], [27.717038, 85.350117], [27.71704, 85.350169], [27.717025, 85.350217], [27.717024, 85.350275], [27.717047, 85.350301], [27.717091, 85.350313], [27.717108, 85.350316], [27.717176, 85.350328], [27.717247, 85.350325], [27.717326, 85.350314], [27.717335, 85.350369], [27.71736, 85.350388], [27.717442, 85.350398], [27.717439, 85.350283], [27.717418, 85.349996], [27.717393, 85.349655], [27.717351, 85.349519], [27.717332, 85.349397], [27.717233, 85.349216], [27.717189, 85.349113], [27.717062, 85.348908], [27.716997, 85.348805], [27.716974, 85.348712], [27.716965, 85.348634], [27.716964, 85.348593], [27.716975, 85.348484], [27.716995, 85.348334], [27.71703, 85.3483], [27.717177, 85.348309], [27.717227, 85.348305], [27.717268, 85.348283], [27.717304, 85.348232], [27.717361, 85.348], [27.717398, 85.347666], [27.717413, 85.347607], [27.717444, 85.347523], [27.717503, 85.347404], [27.717331, 85.347127], [27.717223, 85.346925], [27.717073, 85.346755], [27.717028, 85.346687], [27.717024, 85.34666], [27.716935, 85.346613], [27.716877, 85.346586], [27.716685, 85.346427], [27.716627, 85.346403], [27.716391, 85.346322], [27.716031, 85.346189], [27.715829, 85.346122], [27.715642, 85.346053], [27.715481, 85.345989], [27.714862, 85.345768], [27.714833, 85.34576], [27.714418, 85.345664], [27.713671, 85.345536], [27.713503, 85.345508], [27.713254, 85.345465], [27.713239, 85.345459], [27.713069, 85.345414], [27.713024, 85.345398], [27.712964, 85.345374], [27.712638, 85.345235], [27.71197, 85.344956], [27.711752, 85.344861], [27.711483, 85.344739], [27.710634, 85.344299], [27.710537, 85.344245], [27.710426, 85.3442], [27.710343, 85.344172], [27.710119, 85.34411], [27.7099, 85.344074], [27.709623, 85.344008], [27.70942, 85.343964], [27.709138, 85.343902], [27.708998, 85.343851], [27.708617, 85.343676], [27.708097, 85.34346], [27.708038, 85.343436], [27.707956, 85.343399], [27.707766, 85.343299], [27.707692, 85.34355], [27.707672, 85.343605], [27.70761, 85.343748], [27.70747, 85.343946], [27.707199, 85.344279], [27.707052, 85.344473], [27.706897, 85.344703], [27.70682, 85.344807], [27.706625, 85.345053], [27.706517, 85.345181], [27.706199, 85.34557], [27.706087, 85.345741], [27.706016, 85.345866], [27.705945, 85.346003], [27.705887, 85.346133], [27.705836, 85.346278], [27.705816, 85.34638], [27.70578, 85.346554], [27.705765, 85.346716], [27.705762, 85.346825], [27.705759, 85.346903], [27.705754, 85.347025], [27.705763, 85.347173], [27.705771, 85.347299], [27.705805, 85.347556], [27.705854, 85.34786], [27.705896, 85.348125], [27.705985, 85.348729], [27.70601, 85.348876], [27.706092, 85.349391], [27.706109, 85.349528], [27.706156, 85.34983], [27.706199, 85.350079], [27.706232, 85.35029], [27.706241, 85.350451], [27.706217, 85.350681], [27.706206, 85.350769], [27.706153, 85.350955], [27.706104, 85.351088], [27.706039, 85.351232], [27.705952, 85.35135], [27.705851, 85.351479], [27.705747, 85.351602], [27.705662, 85.351679], [27.705521, 85.351774], [27.705392, 85.351832], [27.705317, 85.351863], [27.705151, 85.351905], [27.705029, 85.351934], [27.704859, 85.351948], [27.704325, 85.351989], [27.703945, 85.351999], [27.703472, 85.352028], [27.703187, 85.352065], [27.703019, 85.352094], [27.702828, 85.352154], [27.702656, 85.352219], [27.702475, 85.352309], [27.702345, 85.352396], [27.702171, 85.352513], [27.701973, 85.352663], [27.70183, 85.352767], [27.701724, 85.352853], [27.701541, 85.35301], [27.701309, 85.353188], [27.701241, 85.353244], [27.701181, 85.353285], [27.701138, 85.353322], [27.700976, 85.35345], [27.70092, 85.353499], [27.70061, 85.353717], [27.700401, 85.353887], [27.700377, 85.353905], [27.700248, 85.354003], [27.700027, 85.35418], [27.699655, 85.354475], [27.699501, 85.354594], [27.699293, 85.354749], [27.699117, 85.35485], [27.698987, 85.354919], [27.698734, 85.355027], [27.698535, 85.355098], [27.698325, 85.355164], [27.698226, 85.355185], [27.698049, 85.355225], [27.697845, 85.355244], [27.697748, 85.355246], [27.697636, 85.355249], [27.697337, 85.355231], [27.696804, 85.355164], [27.696383, 85.355123], [27.696275, 85.355107], [27.695738, 85.355051], [27.695623, 85.355045], [27.695489, 85.355046], [27.695354, 85.355078], [27.695315, 85.355085], [27.695251, 85.35507], [27.695214, 85.355062], [27.695127, 85.355014], [27.695031, 85.354927], [27.694869, 85.35485], [27.694646, 85.354744], [27.694268, 85.354527], [27.693691, 85.3542], [27.692809, 85.353702], [27.692438, 85.353494], [27.69128, 85.352841], [27.691169, 85.352779], [27.690671, 85.352501], [27.690162, 85.352187], [27.689473, 85.351783], [27.688733, 85.351371], [27.687819, 85.350846], [27.687623, 85.350723], [27.687419, 85.350595], [27.687306, 85.350522], [27.68649, 85.350045], [27.68631, 85.349947], [27.686143, 85.349861], [27.685989, 85.349785], [27.685847, 85.349719], [27.685716, 85.349662], [27.685595, 85.349613], [27.685482, 85.349572], [27.685378, 85.349536], [27.685282, 85.349506], [27.685191, 85.349481], [27.685107, 85.34946], [27.685027, 85.349441], [27.684879, 85.349411], [27.684745, 85.349389], [27.684621, 85.349373], [27.684502, 85.349362], [27.684327, 85.349351], [27.684267, 85.349348], [27.683462, 85.349406], [27.683408, 85.349409], [27.683278, 85.349415], [27.682763, 85.34944], [27.68272, 85.349443], [27.68263, 85.349449], [27.681663, 85.349561], [27.678982, 85.34968], [27.678947, 85.34968], [27.67861, 85.349697], [27.678473, 85.349699], [27.678324, 85.349697], [27.677657, 85.349687], [27.677508, 85.349698], [27.677354, 85.349718], [27.677197, 85.349747], [27.677038, 85.349788], [27.676879, 85.349842], [27.676719, 85.349911], [27.676561, 85.349995], [27.676406, 85.350098], [27.676254, 85.350219], [27.676205, 85.350266], [27.676117, 85.350355], [27.676077, 85.350399], [27.676003, 85.350484], [27.675935, 85.350569], [27.675803, 85.350743], [27.675768, 85.350791], [27.675734, 85.350843], [27.6757, 85.3509], [27.675666, 85.35096], [27.675616, 85.351055], [27.675568, 85.351157], [27.675538, 85.351227], [27.675509, 85.351299], [27.675482, 85.351372], [27.675456, 85.351445], [27.675432, 85.351519], [27.675358, 85.351805], [27.675343, 85.351894], [27.675331, 85.351973], [27.675317, 85.352134], [27.675309, 85.352247], [27.675297, 85.352652], [27.675295, 85.352783], [27.675416, 85.352767], [27.675522, 85.352763], [27.675632, 85.352759], [27.675721, 85.352756], [27.676005, 85.352752], [27.676438, 85.352771], [27.676591, 85.352792], [27.676903, 85.35285], [27.677108, 85.352904], [27.677318, 85.352972], [27.677487, 85.353032], [27.677647, 85.353106], [27.678192, 85.353378], [27.678513, 85.353545], [27.678597, 85.353589], [27.678952, 85.353779], [27.679449, 85.354037], [27.679719, 85.354176], [27.679777, 85.354207], [27.680987, 85.354832], [27.681816, 85.355252], [27.68197, 85.355336], [27.68272, 85.355732], [27.682766, 85.355756], [27.683355, 85.356058], [27.683969, 85.356374], [27.684685, 85.35675], [27.684853, 85.356842], [27.684931, 85.356884], [27.685022, 85.356953], [27.68531, 85.357145], [27.685653, 85.357394], [27.685731, 85.357456], [27.686039, 85.357703], [27.686484, 85.358088], [27.686464, 85.358377], [27.686441, 85.358554], [27.6864, 85.358702], [27.686285, 85.358968], [27.686204, 85.359173], [27.686083, 85.359414], [27.685986, 85.359555], [27.685877, 85.359713], [27.685807, 85.359817], [27.685576, 85.360159], [27.685297, 85.360538], [27.685083, 85.360837], [27.685069, 85.360859], [27.684876, 85.361143], [27.684629, 85.361501], [27.684592, 85.361559], [27.684924, 85.361822], [27.685058, 85.361929], [27.685264, 85.362109], [27.685471, 85.36229], [27.685709, 85.362483], [27.685823, 85.362314], [27.686081, 85.362517], [27.686282, 85.362664], [27.686491, 85.362834], [27.686578, 85.362921], [27.686646, 85.362988], [27.686829, 85.363149], [27.68705, 85.363345], [27.686801, 85.363718], [27.686634, 85.363955], [27.686535, 85.364096], [27.686413, 85.36427], [27.686342, 85.364372], [27.686306, 85.364422], [27.685966, 85.364928], [27.685947, 85.364959], [27.685896, 85.365042], [27.685043, 85.366335], [27.684925, 85.366514], [27.684884, 85.366575], [27.68474, 85.366787], [27.684474, 85.367175], [27.68441, 85.367276], [27.684319, 85.367419], [27.68422, 85.367573], [27.684034, 85.367837], [27.683685, 85.368322], [27.683538, 85.368543], [27.683212, 85.369006], [27.683125, 85.369131], [27.683063, 85.369241], [27.683012, 85.369377], [27.682971, 85.369512], [27.682932, 85.369665], [27.682878, 85.369929], [27.682838, 85.370268], [27.682827, 85.370397], [27.682762, 85.370976], [27.682689, 85.371576], [27.682628, 85.372032], [27.682607, 85.372196], [27.68259, 85.372341], [27.682563, 85.372644], [27.682497, 85.373408], [27.682402, 85.374602], [27.682379, 85.374885], [27.682267, 85.376166], [27.682181, 85.377098], [27.68207, 85.377084], [27.681626, 85.376916], [27.681349, 85.376782], [27.681074, 85.376623], [27.680905, 85.376549], [27.68075, 85.3765], [27.680231, 85.376325], [27.680183, 85.37631], [27.679766, 85.376177], [27.679526, 85.376109], [27.67841, 85.375811], [27.678121, 85.375689], [27.677984, 85.375644], [27.677867, 85.375615], [27.677663, 85.37561], [27.677589, 85.375617], [27.67752, 85.375619], [27.677278, 85.375614], [27.677198, 85.375603], [27.677122, 85.375577], [27.67707, 85.375541], [27.676994, 85.375466], [27.676896, 85.375367], [27.676779, 85.375277], [27.676341, 85.375058], [27.676113, 85.37495], [27.676024, 85.374915], [27.675731, 85.374799], [27.675549, 85.374702], [27.675329, 85.374576], [27.675194, 85.374513], [27.675089, 85.374476], [27.674868, 85.374424], [27.674723, 85.37439], [27.674637, 85.374359], [27.674486, 85.37427], [27.674161, 85.374046], [27.674121, 85.374028], [27.674077, 85.374024], [27.673976, 85.374018], [27.673882, 85.374012], [27.673763, 85.373998], [27.673765, 85.373833], [27.673771, 85.373583], [27.67378, 85.3734], [27.673548, 85.37342], [27.673485, 85.373422], [27.673357, 85.373421], [27.673319, 85.373407], [27.673076, 85.373325], [27.672977, 85.372963], [27.672948, 85.372969], [27.672914, 85.372954], [27.67285, 85.372919], [27.67277, 85.372833], [27.672691, 85.372757], [27.67255, 85.372641], [27.672494, 85.372586], [27.672469, 85.372561], [27.672419, 85.372521], [27.672343, 85.372477], [27.672102, 85.372366], [27.672038, 85.372343], [27.671965, 85.372327], [27.671833, 85.372311], [27.671765, 85.3723], [27.671513, 85.372194], [27.67148, 85.372184], [27.671538, 85.371986], [27.671554, 85.371962], [27.671579, 85.371958], [27.671624, 85.371973], [27.671644, 85.371974], [27.671662, 85.371958], [27.671674, 85.371919], [27.671683, 85.37189], [27.67181, 85.371501], [27.671864, 85.371332], [27.672024, 85.371394], [27.672086, 85.371228], [27.672115, 85.371125], [27.672117, 85.371095], [27.672108, 85.371073], [27.672082, 85.371053], [27.672017, 85.371046], [27.67197, 85.371016], [27.671719, 85.37075], [27.671635, 85.370668], [27.671583, 85.370631], [27.671576, 85.370611], [27.671903, 85.370211], [27.671576, 85.370611], [27.671583, 85.370631], [27.671635, 85.370668], [27.671719, 85.37075], [27.67197, 85.371016], [27.672017, 85.371046], [27.672082, 85.371053], [27.672108, 85.371073], [27.672117, 85.371095], [27.672115, 85.371125], [27.672086, 85.371228], [27.672024, 85.371394], [27.671864, 85.371332], [27.67181, 85.371501], [27.671683, 85.37189], [27.671674, 85.371919], [27.671662, 85.371958], [27.671644, 85.371974], [27.671624, 85.371973], [27.671579, 85.371958], [27.671554, 85.371962], [27.671538, 85.371986], [27.67148, 85.372184], [27.671513, 85.372194], [27.671765, 85.3723], [27.671833, 85.372311], [27.671965, 85.372327], [27.672038, 85.372343], [27.672102, 85.372366], [27.672343, 85.372477], [27.672419, 85.372521], [27.672469, 85.372561], [27.672494, 85.372586], [27.67255, 85.372641], [27.672691, 85.372757], [27.67277, 85.372833], [27.6728, 85.372736], [27.67282, 85.372628], [27.67282, 85.372534], [27.672831, 85.372468], [27.672847, 85.372421], [27.672899, 85.372331], [27.673043, 85.372068], [27.673097, 85.371991], [27.673118, 85.371981], [27.673153, 85.371976], [27.673192, 85.371993], [27.673325, 85.372051], [27.673402, 85.372074], [27.673462, 85.372083], [27.673529, 85.372069], [27.673603, 85.372045], [27.673663, 85.372041], [27.673786, 85.372081], [27.673855, 85.372085], [27.673942, 85.370498], [27.673996, 85.369956], [27.67404, 85.369292], [27.674066, 85.368836], [27.674089, 85.368457], [27.674157, 85.367352], [27.674176, 85.367017], [27.674195, 85.366634], [27.674268, 85.36536], [27.674294, 85.364945], [27.674299, 85.364875], [27.674421, 85.364885], [27.674535, 85.364891], [27.674631, 85.364924], [27.674967, 85.364937], [27.675008, 85.364945]],
                 {"bubblingMouseEvents": true, "color": "#1D9E75", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1D9E75", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 5}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            poly_line_f065ee52166c5d9ddb3c9e5dc86a125a.bindTooltip(
+            poly_line_3ac6dc6fdb34ff7c06e2205b2d60a4fa.bindTooltip(
                 `<div>
-                     Optimal route — 31 min
+                     Optimal Route — 173 min
                  </div>`,
                 {
   "sticky": true,
@@ -1993,14 +2083,30 @@
             );
         
     
-            var marker_631263d558f955643c4747957a245ab2 = L.marker(
-                [27.6833, 85.35],
-                {
-}
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            var poly_line_0e484ec189b297fab73f4521211ca1f2 = L.polyline(
+                [[27.726898, 85.343347], [27.726882, 85.34343], [27.726832, 85.343572], [27.726829, 85.343636], [27.726695, 85.343758], [27.726797, 85.34434], [27.726853, 85.344644], [27.7269, 85.344849], [27.726944, 85.345001], [27.726994, 85.345115], [27.727053, 85.345213], [27.727102, 85.345265], [27.727178, 85.345347], [27.727295, 85.345456], [27.727381, 85.345547], [27.727407, 85.345599], [27.727458, 85.345613], [27.727559, 85.34564], [27.727802, 85.34571], [27.728189, 85.345832], [27.728316, 85.345865], [27.728418, 85.345881], [27.728544, 85.345897], [27.728676, 85.345905], [27.728797, 85.345911], [27.728907, 85.345908], [27.729019, 85.3459], [27.729119, 85.345876], [27.72918, 85.34586], [27.729271, 85.345831], [27.729359, 85.3458], [27.729446, 85.345764], [27.729516, 85.345728], [27.72968, 85.345639], [27.729885, 85.345513], [27.729954, 85.345473], [27.730057, 85.345409], [27.730256, 85.345289], [27.730717, 85.345003], [27.731036, 85.344805], [27.731303, 85.344632], [27.731706, 85.344328], [27.732087, 85.344095], [27.732176, 85.344039], [27.732598, 85.343799], [27.732763, 85.343698], [27.733148, 85.343446], [27.733609, 85.343151], [27.733893, 85.342969], [27.734134, 85.342824], [27.734396, 85.342661], [27.734485, 85.342603], [27.734761, 85.342426], [27.734938, 85.342315], [27.735064, 85.342239], [27.735737, 85.3418], [27.736122, 85.341557], [27.736471, 85.341331], [27.736734, 85.341164], [27.737321, 85.340789], [27.737562, 85.340627], [27.737776, 85.340471], [27.737877, 85.340388], [27.737919, 85.340353], [27.738058, 85.340234], [27.738205, 85.34009], [27.738474, 85.339804], [27.738624, 85.339621], [27.738754, 85.339439], [27.738892, 85.339231], [27.738995, 85.339031], [27.739262, 85.33856], [27.739341, 85.338421], [27.739853, 85.337405], [27.739998, 85.337116], [27.740104, 85.336926], [27.740127, 85.336887], [27.740293, 85.336589], [27.740521, 85.336127], [27.740603, 85.336168], [27.740698, 85.336098], [27.740744, 85.33605], [27.740856, 85.335903], [27.740937, 85.335763], [27.74137, 85.335002], [27.741456, 85.334838], [27.74137, 85.335002], [27.740937, 85.335763], [27.740856, 85.335903], [27.740744, 85.33605], [27.740698, 85.336098], [27.740603, 85.336168], [27.740521, 85.336127], [27.740293, 85.336589], [27.740127, 85.336887], [27.740104, 85.336926], [27.739998, 85.337116], [27.739853, 85.337405], [27.739341, 85.338421], [27.739262, 85.33856], [27.738995, 85.339031], [27.738892, 85.339231], [27.738754, 85.339439], [27.738624, 85.339621], [27.738474, 85.339804], [27.738205, 85.34009], [27.738058, 85.340234], [27.737919, 85.340353], [27.737877, 85.340388], [27.737776, 85.340471], [27.737562, 85.340627], [27.737321, 85.340789], [27.736734, 85.341164], [27.736471, 85.341331], [27.736122, 85.341557], [27.735737, 85.3418], [27.735064, 85.342239], [27.734938, 85.342315], [27.734761, 85.342426], [27.734485, 85.342603], [27.734396, 85.342661], [27.734134, 85.342824], [27.733893, 85.342969], [27.733609, 85.343151], [27.733148, 85.343446], [27.732763, 85.343698], [27.732598, 85.343799], [27.732176, 85.344039], [27.732087, 85.344095], [27.731706, 85.344328], [27.731303, 85.344632], [27.731036, 85.344805], [27.730717, 85.345003], [27.730256, 85.345289], [27.730057, 85.345409], [27.729954, 85.345473], [27.729885, 85.345513], [27.72968, 85.345639], [27.729516, 85.345728], [27.729446, 85.345764], [27.729359, 85.3458], [27.729271, 85.345831], [27.72918, 85.34586], [27.729119, 85.345876], [27.729019, 85.3459], [27.728907, 85.345908], [27.728797, 85.345911], [27.728676, 85.345905], [27.728544, 85.345897], [27.728418, 85.345881], [27.728316, 85.345865], [27.728189, 85.345832], [27.727802, 85.34571], [27.727559, 85.34564], [27.727458, 85.345613], [27.727407, 85.345599], [27.727106, 85.34549], [27.726477, 85.34528], [27.726368, 85.345242], [27.725882, 85.345088], [27.725732, 85.345036], [27.725233, 85.344871], [27.724877, 85.344802], [27.724743, 85.344783], [27.724521, 85.344768], [27.724349, 85.344773], [27.72419, 85.344788], [27.724047, 85.344814], [27.723731, 85.344893], [27.723406, 85.345007], [27.723246, 85.345066], [27.72276, 85.345258], [27.722654, 85.345306], [27.722628, 85.345311], [27.722524, 85.345346], [27.722287, 85.34544], [27.721818, 85.345621], [27.721032, 85.345924], [27.721254, 85.345929], [27.721561, 85.345936], [27.721731, 85.345906], [27.721867, 85.346153], [27.722087, 85.346471], [27.722192, 85.346632], [27.722207, 85.346693], [27.72221, 85.346749], [27.7221, 85.347513], [27.722001, 85.347995], [27.721946, 85.348179], [27.722164, 85.348566], [27.722357, 85.348857], [27.722596, 85.34929], [27.722821, 85.349579], [27.722827, 85.349589], [27.723022, 85.349911], [27.7232, 85.350197], [27.723384, 85.350491], [27.723559, 85.35079], [27.723588, 85.350837], [27.723821, 85.351204], [27.724035, 85.351539], [27.724136, 85.351708], [27.724414, 85.352141], [27.72464, 85.352536], [27.724687, 85.35262], [27.724872, 85.352876], [27.725064, 85.353189], [27.725165, 85.353392], [27.72533, 85.353649], [27.725455, 85.353901], [27.725571, 85.354053], [27.725733, 85.354317], [27.725885, 85.354516], [27.726045, 85.354774], [27.726112, 85.354883], [27.726365, 85.355278], [27.726473, 85.355465], [27.726512, 85.355528], [27.726918, 85.356179], [27.727246, 85.35673], [27.72737, 85.356938], [27.727587, 85.357289], [27.727682, 85.357447], [27.727725, 85.357517], [27.727819, 85.357671], [27.727968, 85.357877], [27.728155, 85.358179], [27.728198, 85.358272], [27.728204, 85.358283], [27.728237, 85.358357], [27.728259, 85.358401], [27.728336, 85.358542], [27.728479, 85.358802], [27.72849, 85.358822], [27.728501, 85.358853], [27.728508, 85.358884], [27.728511, 85.358914], [27.72851, 85.358949], [27.728507, 85.359123], [27.72845, 85.359133], [27.727686, 85.358952], [27.727647, 85.359164], [27.727604, 85.359353], [27.727574, 85.359551], [27.727546, 85.359712], [27.727504, 85.359796], [27.72743, 85.359918], [27.727603, 85.360087], [27.727683, 85.360288], [27.727697, 85.360376], [27.727699, 85.360445], [27.727691, 85.360546], [27.727679, 85.360634], [27.727648, 85.360694], [27.727548, 85.360736], [27.727495, 85.360803], [27.727461, 85.360907], [27.727417, 85.360974], [27.727413, 85.361171], [27.727439, 85.361318], [27.727375, 85.361548], [27.727357, 85.361834], [27.727307, 85.362225], [27.727165, 85.362192], [27.727043, 85.36216], [27.727006, 85.362133], [27.726988, 85.362047], [27.726943, 85.36182], [27.726942, 85.361697], [27.726943, 85.36182], [27.726988, 85.362047], [27.727006, 85.362133], [27.727043, 85.36216], [27.727165, 85.362192], [27.727307, 85.362225], [27.727357, 85.361834], [27.727375, 85.361548], [27.727439, 85.361318], [27.727413, 85.361171], [27.727417, 85.360974], [27.727461, 85.360907], [27.727495, 85.360803], [27.727548, 85.360736], [27.727648, 85.360694], [27.727679, 85.360634], [27.727691, 85.360546], [27.727699, 85.360445], [27.727697, 85.360376], [27.727683, 85.360288], [27.727603, 85.360087], [27.72743, 85.359918], [27.727342, 85.359821], [27.727234, 85.359704], [27.727122, 85.35953], [27.727021, 85.359387], [27.727008, 85.35928], [27.726936, 85.359178], [27.726815, 85.359032], [27.726797, 85.358943], [27.726798, 85.358884], [27.726812, 85.358835], [27.726845, 85.358803], [27.726873, 85.358798], [27.726907, 85.358801], [27.726836, 85.358634], [27.726743, 85.358434], [27.726652, 85.358339], [27.726585, 85.358244], [27.726409, 85.358181], [27.726248, 85.357953], [27.726195, 85.35789], [27.726099, 85.357843], [27.725458, 85.357792], [27.72531, 85.357781], [27.725212, 85.357737], [27.72515, 85.357689], [27.725116, 85.357663], [27.724783, 85.357294], [27.724696, 85.357202], [27.724625, 85.357209], [27.724541, 85.357227], [27.724267, 85.356833], [27.724001, 85.356472], [27.723987, 85.356456], [27.723638, 85.356057], [27.723623, 85.356039], [27.723542, 85.355947], [27.723277, 85.355643], [27.723131, 85.355466], [27.723053, 85.355348], [27.722983, 85.355223], [27.722898, 85.355074], [27.722829, 85.354985], [27.722515, 85.354717], [27.722438, 85.354628], [27.722298, 85.354413], [27.722267, 85.354322], [27.722264, 85.354304], [27.722253, 85.354255], [27.722235, 85.354145], [27.722217, 85.354069], [27.722179, 85.353944], [27.72203, 85.353694], [27.721868, 85.353481], [27.721542, 85.353084], [27.721217, 85.352684], [27.720969, 85.35241], [27.720821, 85.352211], [27.720459, 85.351772], [27.720036, 85.351244], [27.719665, 85.35078], [27.719618, 85.350719], [27.719332, 85.350975], [27.719376, 85.351111], [27.719405, 85.351256], [27.719424, 85.351388], [27.719428, 85.351559], [27.719174, 85.351547], [27.718959, 85.351535], [27.718795, 85.351553], [27.718758, 85.351573], [27.718711, 85.351612], [27.718682, 85.351601], [27.718665, 85.351586], [27.718675, 85.351496], [27.718648, 85.351468], [27.718581, 85.35144], [27.718465, 85.351398], [27.718101, 85.351259], [27.718062, 85.351193], [27.718036, 85.351105], [27.717979, 85.351077], [27.71778, 85.351032], [27.717695, 85.351007], [27.7176, 85.350985], [27.717535, 85.350953], [27.717462, 85.350897], [27.717434, 85.350618], [27.717436, 85.350515], [27.717442, 85.350398], [27.71736, 85.350388], [27.717335, 85.350369], [27.717326, 85.350314], [27.717247, 85.350325], [27.717176, 85.350328], [27.717108, 85.350316], [27.717091, 85.350313], [27.717047, 85.350301], [27.717024, 85.350275], [27.717025, 85.350217], [27.71704, 85.350169], [27.717038, 85.350117], [27.717035, 85.350081], [27.717019, 85.350057], [27.716956, 85.35005], [27.716958, 85.350031], [27.716956, 85.35005], [27.717019, 85.350057], [27.717035, 85.350081], [27.717038, 85.350117], [27.71704, 85.350169], [27.717025, 85.350217], [27.717024, 85.350275], [27.717047, 85.350301], [27.717091, 85.350313], [27.717108, 85.350316], [27.717176, 85.350328], [27.717247, 85.350325], [27.717326, 85.350314], [27.717335, 85.350369], [27.71736, 85.350388], [27.717442, 85.350398], [27.717439, 85.350283], [27.717418, 85.349996], [27.717393, 85.349655], [27.717351, 85.349519], [27.717332, 85.349397], [27.717233, 85.349216], [27.717189, 85.349113], [27.717062, 85.348908], [27.716997, 85.348805], [27.716974, 85.348712], [27.716965, 85.348634], [27.716964, 85.348593], [27.716975, 85.348484], [27.716995, 85.348334], [27.71703, 85.3483], [27.717177, 85.348309], [27.717227, 85.348305], [27.717268, 85.348283], [27.717304, 85.348232], [27.717361, 85.348], [27.717398, 85.347666], [27.717413, 85.347607], [27.717444, 85.347523], [27.717503, 85.347404], [27.717331, 85.347127], [27.717223, 85.346925], [27.717073, 85.346755], [27.717028, 85.346687], [27.717024, 85.34666], [27.716935, 85.346613], [27.716877, 85.346586], [27.716685, 85.346427], [27.716627, 85.346403], [27.716391, 85.346322], [27.716031, 85.346189], [27.715829, 85.346122], [27.715642, 85.346053], [27.715481, 85.345989], [27.714862, 85.345768], [27.714833, 85.34576], [27.714418, 85.345664], [27.713671, 85.345536], [27.713503, 85.345508], [27.713254, 85.345465], [27.713239, 85.345459], [27.713069, 85.345414], [27.713024, 85.345398], [27.712964, 85.345374], [27.712638, 85.345235], [27.71197, 85.344956], [27.711752, 85.344861], [27.711483, 85.344739], [27.710634, 85.344299], [27.710537, 85.344245], [27.710426, 85.3442], [27.710343, 85.344172], [27.710119, 85.34411], [27.7099, 85.344074], [27.709623, 85.344008], [27.70942, 85.343964], [27.709138, 85.343902], [27.708998, 85.343851], [27.708617, 85.343676], [27.708097, 85.34346], [27.708038, 85.343436], [27.707956, 85.343399], [27.707766, 85.343299], [27.707692, 85.34355], [27.707672, 85.343605], [27.70761, 85.343748], [27.70747, 85.343946], [27.707199, 85.344279], [27.707052, 85.344473], [27.706897, 85.344703], [27.70682, 85.344807], [27.706625, 85.345053], [27.706517, 85.345181], [27.706199, 85.34557], [27.706087, 85.345741], [27.706016, 85.345866], [27.705945, 85.346003], [27.705887, 85.346133], [27.705836, 85.346278], [27.705816, 85.34638], [27.70578, 85.346554], [27.705765, 85.346716], [27.705762, 85.346825], [27.705759, 85.346903], [27.705754, 85.347025], [27.705763, 85.347173], [27.705771, 85.347299], [27.705805, 85.347556], [27.705854, 85.34786], [27.705896, 85.348125], [27.705985, 85.348729], [27.70601, 85.348876], [27.706092, 85.349391], [27.706109, 85.349528], [27.706156, 85.34983], [27.706199, 85.350079], [27.706232, 85.35029], [27.706241, 85.350451], [27.706217, 85.350681], [27.706206, 85.350769], [27.706153, 85.350955], [27.706104, 85.351088], [27.706039, 85.351232], [27.705952, 85.35135], [27.705851, 85.351479], [27.705747, 85.351602], [27.705662, 85.351679], [27.705521, 85.351774], [27.705392, 85.351832], [27.705317, 85.351863], [27.705151, 85.351905], [27.705029, 85.351934], [27.704859, 85.351948], [27.704325, 85.351989], [27.703945, 85.351999], [27.703472, 85.352028], [27.703187, 85.352065], [27.703019, 85.352094], [27.702828, 85.352154], [27.702656, 85.352219], [27.702475, 85.352309], [27.702345, 85.352396], [27.702171, 85.352513], [27.701973, 85.352663], [27.70183, 85.352767], [27.701724, 85.352853], [27.701541, 85.35301], [27.701309, 85.353188], [27.701241, 85.353244], [27.701181, 85.353285], [27.701138, 85.353322], [27.700976, 85.35345], [27.70092, 85.353499], [27.70061, 85.353717], [27.700401, 85.353887], [27.700377, 85.353905], [27.700248, 85.354003], [27.700027, 85.35418], [27.699655, 85.354475], [27.699501, 85.354594], [27.699293, 85.354749], [27.699117, 85.35485], [27.698987, 85.354919], [27.698734, 85.355027], [27.698535, 85.355098], [27.698325, 85.355164], [27.698226, 85.355185], [27.698049, 85.355225], [27.697845, 85.355244], [27.697748, 85.355246], [27.697636, 85.355249], [27.697337, 85.355231], [27.696804, 85.355164], [27.696383, 85.355123], [27.696275, 85.355107], [27.695738, 85.355051], [27.695623, 85.355045], [27.695489, 85.355046], [27.695354, 85.355078], [27.695315, 85.355085], [27.695251, 85.35507], [27.695214, 85.355062], [27.695127, 85.355014], [27.695031, 85.354927], [27.694869, 85.35485], [27.694646, 85.354744], [27.694268, 85.354527], [27.693691, 85.3542], [27.692809, 85.353702], [27.692438, 85.353494], [27.69128, 85.352841], [27.691169, 85.352779], [27.690671, 85.352501], [27.690162, 85.352187], [27.689473, 85.351783], [27.688733, 85.351371], [27.687819, 85.350846], [27.687623, 85.350723], [27.687419, 85.350595], [27.687306, 85.350522], [27.68649, 85.350045], [27.68631, 85.349947], [27.686143, 85.349861], [27.685989, 85.349785], [27.685847, 85.349719], [27.685716, 85.349662], [27.685595, 85.349613], [27.685482, 85.349572], [27.685378, 85.349536], [27.685282, 85.349506], [27.685191, 85.349481], [27.685107, 85.34946], [27.685027, 85.349441], [27.684879, 85.349411], [27.684745, 85.349389], [27.684621, 85.349373], [27.684502, 85.349362], [27.684327, 85.349351], [27.684267, 85.349348], [27.683462, 85.349406], [27.683408, 85.349409], [27.683278, 85.349415], [27.682763, 85.34944], [27.68272, 85.349443], [27.68263, 85.349449], [27.681663, 85.349561], [27.678982, 85.34968], [27.678947, 85.34968], [27.67861, 85.349697], [27.678473, 85.349699], [27.678324, 85.349697], [27.677657, 85.349687], [27.677508, 85.349698], [27.677354, 85.349718], [27.677197, 85.349747], [27.677038, 85.349788], [27.676879, 85.349842], [27.676719, 85.349911], [27.676561, 85.349995], [27.676406, 85.350098], [27.676254, 85.350219], [27.676205, 85.350266], [27.676117, 85.350355], [27.676077, 85.350399], [27.676003, 85.350484], [27.675935, 85.350569], [27.675803, 85.350743], [27.675768, 85.350791], [27.675734, 85.350843], [27.6757, 85.3509], [27.675666, 85.35096], [27.675616, 85.351055], [27.675568, 85.351157], [27.675538, 85.351227], [27.675509, 85.351299], [27.675482, 85.351372], [27.675456, 85.351445], [27.675432, 85.351519], [27.675358, 85.351805], [27.675343, 85.351894], [27.675331, 85.351973], [27.675317, 85.352134], [27.675309, 85.352247], [27.675297, 85.352652], [27.675295, 85.352783], [27.675416, 85.352767], [27.675522, 85.352763], [27.675632, 85.352759], [27.675721, 85.352756], [27.676005, 85.352752], [27.676438, 85.352771], [27.676591, 85.352792], [27.676903, 85.35285], [27.677108, 85.352904], [27.677318, 85.352972], [27.677487, 85.353032], [27.677647, 85.353106], [27.678192, 85.353378], [27.678513, 85.353545], [27.678597, 85.353589], [27.678952, 85.353779], [27.679449, 85.354037], [27.679719, 85.354176], [27.679777, 85.354207], [27.680987, 85.354832], [27.681816, 85.355252], [27.68197, 85.355336], [27.68272, 85.355732], [27.682766, 85.355756], [27.683355, 85.356058], [27.683969, 85.356374], [27.684685, 85.35675], [27.684853, 85.356842], [27.684931, 85.356884], [27.685022, 85.356953], [27.68531, 85.357145], [27.685653, 85.357394], [27.685731, 85.357456], [27.686039, 85.357703], [27.686484, 85.358088], [27.686464, 85.358377], [27.686441, 85.358554], [27.6864, 85.358702], [27.686285, 85.358968], [27.686204, 85.359173], [27.686083, 85.359414], [27.685986, 85.359555], [27.685877, 85.359713], [27.685807, 85.359817], [27.685576, 85.360159], [27.685297, 85.360538], [27.685083, 85.360837], [27.685069, 85.360859], [27.684876, 85.361143], [27.684629, 85.361501], [27.684592, 85.361559], [27.684924, 85.361822], [27.685058, 85.361929], [27.685264, 85.362109], [27.685471, 85.36229], [27.685709, 85.362483], [27.685823, 85.362314], [27.686081, 85.362517], [27.686282, 85.362664], [27.686491, 85.362834], [27.686578, 85.362921], [27.686646, 85.362988], [27.686829, 85.363149], [27.68705, 85.363345], [27.686801, 85.363718], [27.686634, 85.363955], [27.686535, 85.364096], [27.686413, 85.36427], [27.686342, 85.364372], [27.686306, 85.364422], [27.685966, 85.364928], [27.685947, 85.364959], [27.685896, 85.365042], [27.685043, 85.366335], [27.684925, 85.366514], [27.684884, 85.366575], [27.68474, 85.366787], [27.684474, 85.367175], [27.68441, 85.367276], [27.684319, 85.367419], [27.68422, 85.367573], [27.684034, 85.367837], [27.683685, 85.368322], [27.683538, 85.368543], [27.683212, 85.369006], [27.683125, 85.369131], [27.683063, 85.369241], [27.683012, 85.369377], [27.682971, 85.369512], [27.682932, 85.369665], [27.682878, 85.369929], [27.682838, 85.370268], [27.682827, 85.370397], [27.682762, 85.370976], [27.682689, 85.371576], [27.682628, 85.372032], [27.682607, 85.372196], [27.68259, 85.372341], [27.682563, 85.372644], [27.682497, 85.373408], [27.682402, 85.374602], [27.682379, 85.374885], [27.682267, 85.376166], [27.682181, 85.377098], [27.68207, 85.377084], [27.681626, 85.376916], [27.681349, 85.376782], [27.681074, 85.376623], [27.680905, 85.376549], [27.68075, 85.3765], [27.680231, 85.376325], [27.680183, 85.37631], [27.679766, 85.376177], [27.679526, 85.376109], [27.67841, 85.375811], [27.678121, 85.375689], [27.677984, 85.375644], [27.677867, 85.375615], [27.677663, 85.37561], [27.677589, 85.375617], [27.67752, 85.375619], [27.677278, 85.375614], [27.677198, 85.375603], [27.677122, 85.375577], [27.67707, 85.375541], [27.676994, 85.375466], [27.676896, 85.375367], [27.676779, 85.375277], [27.676341, 85.375058], [27.676113, 85.37495], [27.676024, 85.374915], [27.675731, 85.374799], [27.675549, 85.374702], [27.675329, 85.374576], [27.675194, 85.374513], [27.675089, 85.374476], [27.674868, 85.374424], [27.674723, 85.37439], [27.674637, 85.374359], [27.674486, 85.37427], [27.674161, 85.374046], [27.674121, 85.374028], [27.674077, 85.374024], [27.673976, 85.374018], [27.673882, 85.374012], [27.673763, 85.373998], [27.673765, 85.373833], [27.673771, 85.373583], [27.67378, 85.3734], [27.673548, 85.37342], [27.673485, 85.373422], [27.673357, 85.373421], [27.673319, 85.373407], [27.673076, 85.373325], [27.672977, 85.372963], [27.672948, 85.372969], [27.672914, 85.372954], [27.67285, 85.372919], [27.67277, 85.372833], [27.672691, 85.372757], [27.67255, 85.372641], [27.672494, 85.372586], [27.672469, 85.372561], [27.672419, 85.372521], [27.672343, 85.372477], [27.672102, 85.372366], [27.672038, 85.372343], [27.671965, 85.372327], [27.671833, 85.372311], [27.671765, 85.3723], [27.671513, 85.372194], [27.67148, 85.372184], [27.671538, 85.371986], [27.671554, 85.371962], [27.671579, 85.371958], [27.671624, 85.371973], [27.671644, 85.371974], [27.671662, 85.371958], [27.671674, 85.371919], [27.671683, 85.37189], [27.67181, 85.371501], [27.671864, 85.371332], [27.672024, 85.371394], [27.672086, 85.371228], [27.672115, 85.371125], [27.672117, 85.371095], [27.672108, 85.371073], [27.672082, 85.371053], [27.672017, 85.371046], [27.67197, 85.371016], [27.671719, 85.37075], [27.671635, 85.370668], [27.671583, 85.370631], [27.671576, 85.370611], [27.671903, 85.370211], [27.671576, 85.370611], [27.671583, 85.370631], [27.671635, 85.370668], [27.671719, 85.37075], [27.67197, 85.371016], [27.672017, 85.371046], [27.672082, 85.371053], [27.672108, 85.371073], [27.672117, 85.371095], [27.672115, 85.371125], [27.672086, 85.371228], [27.672024, 85.371394], [27.671864, 85.371332], [27.67181, 85.371501], [27.671683, 85.37189], [27.671674, 85.371919], [27.671662, 85.371958], [27.671644, 85.371974], [27.671624, 85.371973], [27.671579, 85.371958], [27.671554, 85.371962], [27.671538, 85.371986], [27.67148, 85.372184], [27.671513, 85.372194], [27.671765, 85.3723], [27.671833, 85.372311], [27.671965, 85.372327], [27.672038, 85.372343], [27.672102, 85.372366], [27.672343, 85.372477], [27.672419, 85.372521], [27.672469, 85.372561], [27.672494, 85.372586], [27.67255, 85.372641], [27.672691, 85.372757], [27.67277, 85.372833], [27.6728, 85.372736], [27.67282, 85.372628], [27.67282, 85.372534], [27.672831, 85.372468], [27.672847, 85.372421], [27.672899, 85.372331], [27.673043, 85.372068], [27.673097, 85.371991], [27.673118, 85.371981], [27.673153, 85.371976], [27.673192, 85.371993], [27.673325, 85.372051], [27.673402, 85.372074], [27.673462, 85.372083], [27.673529, 85.372069], [27.673603, 85.372045], [27.673663, 85.372041], [27.673786, 85.372081], [27.673855, 85.372085], [27.673942, 85.370498], [27.673996, 85.369956], [27.67404, 85.369292], [27.674066, 85.368836], [27.674089, 85.368457], [27.674157, 85.367352], [27.674176, 85.367017], [27.674195, 85.366634], [27.674268, 85.36536], [27.674294, 85.364945], [27.674299, 85.364875], [27.674421, 85.364885], [27.674535, 85.364891], [27.674631, 85.364924], [27.674967, 85.364937], [27.675008, 85.364945]],
+                {"bubblingMouseEvents": true, "color": "#E74C3C", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "#E74C3C", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            var icon_881b49aa6ba4d39f5b208d354ea2d5a3 = L.AwesomeMarkers.icon(
+            poly_line_0e484ec189b297fab73f4521211ca1f2.bindTooltip(
+                `<div>
+                     Naive Route — 150 min
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_46e4393a0e3381b32a5a02f4278155ef = L.marker(
+                [27.7267, 85.3433],
+                {
+}
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
+        
+    
+            var icon_eb3aaa1d208be2b2ca8e308a7fb7e7bc = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -2011,27 +2117,17 @@
             );
         
     
-            marker_631263d558f955643c4747957a245ab2.bindTooltip(
-                `<div>
-                     START: Koteshwor
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_631263d558f955643c4747957a245ab2.setIcon(icon_881b49aa6ba4d39f5b208d354ea2d5a3);
+                marker_46e4393a0e3381b32a5a02f4278155ef.setIcon(icon_eb3aaa1d208be2b2ca8e308a7fb7e7bc);
             
     
-            var marker_17513e33aea599e223c100be9e0b2fe7 = L.marker(
-                [27.6967, 85.325],
+            var marker_fa8d54db0b53241fa0622020288c48f3 = L.marker(
+                [27.675, 85.365],
                 {
 }
-            ).addTo(map_22a026bb0082144965d978d664b2e68b);
+            ).addTo(map_0c1505b4b0e14017e18502b692de6568);
         
     
-            var icon_f478f088fc636cbee6064ace62ac08e5 = L.AwesomeMarkers.icon(
+            var icon_fb81c8d16edd42e7201a2fd1dcd4e281 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2042,9 +2138,9 @@
             );
         
     
-            marker_17513e33aea599e223c100be9e0b2fe7.bindTooltip(
+            marker_fa8d54db0b53241fa0622020288c48f3.bindTooltip(
                 `<div>
-                     END: Maitighar
+                     END: Biruwa Kaushaltar
                  </div>`,
                 {
   "sticky": true,
@@ -2052,7 +2148,7 @@
             );
         
     
-                marker_17513e33aea599e223c100be9e0b2fe7.setIcon(icon_f478f088fc636cbee6064ace62ac08e5);
+                marker_fa8d54db0b53241fa0622020288c48f3.setIcon(icon_fb81c8d16edd42e7201a2fd1dcd4e281);
             
 </script>
 </html>
