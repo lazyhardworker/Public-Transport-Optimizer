@@ -1,41 +1,23 @@
-# Public Transport Optimizer Documentation
+# Documentation for Public Transport Optimizer
 
-## Setup
-1. Clone the repository:
-   ```
-   git clone https://github.com/lazyhardworker/Public-Transport-Optimizer.git
-   ```
-2. Navigate to the project directory:
-   ```
-   cd Public-Transport-Optimizer
-   ```
-3. Install the required dependencies:
-   ```
-   npm install
-   ```
+## Tech Stack
+- **Backend:** FastAPI, Python
+- **Frontend:** React + Vite
+- **Libraries:** NetworkX, Folium, OSRM, Pandas
 
-## Features
-- Real-time public transport tracking
-- Route optimization
-- User-friendly interface
-- Multi-modal transport options
+## Project Structure
+- `app/`: Contains the FastAPI backend
+- `frontend/`: Contains the React frontend
+- `docs/`: Documentation files
+- `requirements.txt`: Python dependencies
+- `package.json`: JavaScript dependencies
 
-## Architecture
-The Public Transport Optimizer is built using a microservices architecture. The main components include:
-- **Frontend**: A web application built with React for user interaction.
-- **Backend**: A Node.js server that handles API requests and processes data.
-- **Database**: MongoDB for storing user preferences and transport data.
+## API Endpoints
+- **GET /api/routes**: Retrieves available routes
+- **POST /api/routes**: Creates a new route
+- **GET /api/transport/{id}**: Retrieves transport details by ID
 
-## Usage Instructions
-1. Start the backend server:
-   ```
-   npm start
-   ```
-2. Open the frontend application in a web browser:
-   ```
-   http://localhost:3000
-   ```
-3. Use the application to plan your journey, track real-time transport, and optimize your route.
-
-## Contributing
-Feel free to fork the repository and submit pull requests for new features or bug fixes!
+## Setup Instructions
+1. Clone the repository: `git clone https://github.com/lazyhardworker/Public-Transport-Optimizer.git`
+2. Navigate to the project directory: `cd Public-Transport-Optimizer`
+3. Install Python dependencies:
